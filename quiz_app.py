@@ -20,7 +20,10 @@ BUTTON_HOVER = "#2980B9"  # Darker blue for hover
 TITLE_FONT = ("Helvetica", 28, "bold")  # Increased size
 HEADER_FONT = ("Helvetica", 20, "bold")  # Increased size
 BUTTON_FONT = ("Helvetica", 14)  # Increased size
-TEXT_FONT = ("Helvetica", 14)  # Increased size
+TEXT_FONT = ("Helvetica", 15)  # Increased size
+
+QUESTION_FONT = ("Helvetica", 16)  # New global variable for question text size
+OPTION_FONT = ("Helvetica", 14)    # New global variable for option text size
 
 # Button Style
 BUTTON_STYLE = {
@@ -40,6 +43,10 @@ FRAME_STYLE = {
     'pady': 20,
     'borderwidth': 1
 }
+
+# Configuration Variables for Results Page
+SHOW_CORRECT_ANSWERS = True  # Toggle to show/hide correct answers
+SHOW_USER_ANSWERS = True     # Toggle to show/hide user's answers
 
 class QuizApp:
     def __init__(self, master):
@@ -230,11 +237,11 @@ class QuizApp:
             text=question_text,
             wraplength=WINDOW_WIDTH - 60,  # Increased wraplength for better text wrapping
             justify="left",
-            font=TEXT_FONT,
+            font=QUESTION_FONT,  # Updated font
             bg=BG_COLOR,
             fg=TEXT_COLOR
         )
-        question_label.pack(pady=15)  # Increased padding
+        question_label.pack(pady=15, fill='x')  # Ensure label spans the width
 
         # Display answer options
         self.answer_vars = []
@@ -247,12 +254,13 @@ class QuizApp:
                     text=option,
                     variable=self.selected_var,
                     value=option,
-                    font=TEXT_FONT,
+                    font=OPTION_FONT,  # Updated font
                     bg=BG_COLOR,
                     anchor='w',
-                    width=50
+                    justify='left',  # Ensure text wraps and aligns left
+                    wraplength=WINDOW_WIDTH - 100  # Adjust wraplength
                 )
-                rb.pack(anchor='w')
+                rb.pack(anchor='w', fill='x')  # Ensure radiobutton spans the width
         elif question_type == 'multiple':
             if self.user_answers[self.current_question]:
                 previous_selections = self.user_answers[self.current_question]
@@ -264,12 +272,13 @@ class QuizApp:
                     top_frame,
                     text=option,
                     variable=var,
-                    font=TEXT_FONT,
+                    font=OPTION_FONT,  # Updated font
                     bg=BG_COLOR,
                     anchor='w',
-                    width=50
+                    justify='left',  # Ensure text wraps and aligns left
+                    wraplength=WINDOW_WIDTH - 100  # Adjust wraplength
                 )
-                cb.pack(anchor='w')
+                cb.pack(anchor='w', fill='x')  # Ensure checkbox spans the width
                 self.answer_vars.append((option, var))
 
         # Navigation buttons positioned at the bottom
@@ -456,34 +465,16 @@ class QuizApp:
         )
         summary_label.pack(pady=20)
 
-        # Frame for summary content
-        summary_frame = tk.Frame(self.master, bg=BG_COLOR)
-        summary_frame.pack(pady=10)
+        # Frame for summary statistics
+        stats_frame = tk.Frame(self.master, bg=BG_COLOR)
+        stats_frame.pack(pady=10)
 
-        # Simulate rounded borders
-        summary_frame.config(relief='groove', borderwidth=2)
-
-        # Display list of questions with correct/incorrect/incomplete status
+        # Calculate correct answers
         for i, question in enumerate(self.questions):
             if incomplete_questions and i in incomplete_questions:
-                status = "Incomplete"
-                status_color = "orange"
-            elif self.check_answer(i):
-                status = "Correct"
-                status_color = "green"
+                continue
+            if self.check_answer(i):
                 correct_count += 1
-            else:
-                status = "Incorrect"
-                status_color = "red"
-
-            question_summary = tk.Label(
-                summary_frame,
-                text=f"Question {i+1}: {status}",
-                fg=status_color,
-                font=TEXT_FONT,
-                bg=BG_COLOR
-            )
-            question_summary.pack(anchor='w')
 
         result_text = f"You answered {correct_count} out of {total_questions} questions correctly."
         percentage = (correct_count / total_questions) * 100
@@ -496,22 +487,86 @@ class QuizApp:
             pass_fail_color = "red"
 
         result_label = tk.Label(
-            self.master,
+            stats_frame,
             text=result_text,
             font=('Arial', 14),
             bg=BG_COLOR,
             fg=TEXT_COLOR
         )
-        result_label.pack(pady=10)
+        result_label.pack(pady=5)
 
         score_label = tk.Label(
-            self.master,
+            stats_frame,
             text=pass_fail_text,
             font=('Arial', 16, 'bold'),
             bg=BG_COLOR,
             fg=pass_fail_color
         )
         score_label.pack(pady=5)
+
+        # Frame for summary content with two panes
+        summary_main_frame = tk.Frame(self.master, bg=BG_COLOR)
+        summary_main_frame.pack(pady=10, fill='both', expand=True)
+
+        # Left pane: Scrollable list of questions
+        list_frame = tk.Frame(summary_main_frame, bg=BG_COLOR)
+        list_frame.pack(side='left', fill='both', expand=True, padx=10, pady=10)
+
+        canvas = tk.Canvas(list_frame, bg=BG_COLOR)
+        scrollbar = tk.Scrollbar(list_frame, orient='vertical', command=canvas.yview)
+        scrollable_frame = tk.Frame(canvas, bg=BG_COLOR)
+
+        scrollable_frame.bind(
+            "<Configure>",
+            lambda e: canvas.configure(
+                scrollregion=canvas.bbox("all")
+            )
+        )
+
+        canvas.create_window((0, 0), window=scrollable_frame, anchor='nw')
+        canvas.configure(yscrollcommand=scrollbar.set)
+
+        canvas.pack(side="left", fill="both", expand=True)
+        scrollbar.pack(side="right", fill="y")
+
+        # Populate the scrollable list with questions
+        for i, question in enumerate(self.questions):
+            if incomplete_questions and i in incomplete_questions:
+                status = "Incomplete"
+                status_color = "orange"
+            elif self.check_answer(i):
+                status = "Correct"
+                status_color = "green"
+            else:
+                status = "Incorrect"
+                status_color = "red"
+
+            btn = tk.Button(
+                scrollable_frame,
+                text=f"Question {i+1}: {status}",
+                fg=status_color,
+                bg=BG_COLOR,
+                font=TEXT_FONT,
+                anchor='w',
+                relief='flat',
+                command=lambda idx=i: self.display_question_detail(idx)
+            )
+            btn.pack(fill='x', pady=2)
+
+        # Right pane: Detail view for selected question
+        detail_frame = tk.Frame(summary_main_frame, bg=BG_COLOR)
+        detail_frame.pack(side='right', fill='both', expand=True, padx=10, pady=10)
+
+        self.detail_label = tk.Label(
+            detail_frame,
+            text="Select a question to view details.",
+            wraplength=WINDOW_WIDTH - 150,
+            justify="left",
+            font=TEXT_FONT,
+            bg=BG_COLOR,
+            fg=TEXT_COLOR
+        )
+        self.detail_label.pack(pady=5, fill='both', expand=True)
 
         # Navigation buttons
         nav_frame = tk.Frame(self.master, bg=BG_COLOR)
@@ -543,6 +598,65 @@ class QuizApp:
                 command=self.main_menu
             )
             return_button.pack(side='left', padx=5)
+
+    def display_question_detail(self, question_index):
+        question = self.questions[question_index]
+        rationale = question.get('rationale', 'No rationale provided.')
+        question_text = question['question']
+        options = question['options']
+        correct_answers = question['answer']  # Assuming 'answer' holds correct option(s)
+
+        # Label options with letters
+        option_labels = ['a.', 'b.', 'c.', 'd.', 'e.', 'f.', 'g.', 'h.']
+        labeled_options = []
+        for idx, option in enumerate(options):
+            label = option_labels[idx] if idx < len(option_labels) else f"{idx +1}."
+            labeled_options.append(f"{label} {option}")
+
+        # Determine correct option letters
+        correct_labels = []
+        for idx, option in enumerate(options):
+            if option in correct_answers:
+                label = option_labels[idx] if idx < len(option_labels) else f"{idx +1}."
+                correct_labels.append(label)
+
+        # Determine user's selected answers
+        user_answer = self.user_answers[question_index]
+        user_selected = []
+        if question['type'] == 'single':
+            selected_option = user_answer.get('answer') if user_answer else None
+            if selected_option:
+                try:
+                    idx = options.index(selected_option)
+                    label = option_labels[idx] if idx < len(option_labels) else f"{idx +1}."
+                    user_selected.append(label)
+                except ValueError:
+                    pass
+        elif question['type'] == 'multiple':
+            for option, selected in user_answer.items():
+                if selected:
+                    try:
+                        idx = options.index(option)
+                        label = option_labels[idx] if idx < len(option_labels) else f"{idx +1}."
+                        user_selected.append(label)
+                    except ValueError:
+                        pass
+
+        # Build detail text
+        detail_text = f"Question {question_index +1}:\n{question_text}\n\nOptions:\n"
+        for lbl_option in labeled_options:
+            detail_text += f"{lbl_option}\n"
+        detail_text += f"\nRationale:\n{rationale}\n\n"
+
+        if SHOW_CORRECT_ANSWERS:
+            correct_str = ', '.join(correct_labels)
+            detail_text += f"Correct Answer(s): {correct_str}\n"
+
+        if SHOW_USER_ANSWERS and user_selected:
+            user_str = ', '.join(user_selected)
+            detail_text += f"Your Answer(s): {user_str}\n"
+
+        self.detail_label.config(text=detail_text)
 
     def go_to_incomplete_question(self):
         # Go back to the first incomplete question
