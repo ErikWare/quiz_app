@@ -112,10 +112,10 @@ Welcome to the **SAFe Product Owner/Product Manager Certification Test Applicati
 *Note: Replace `[Lesson 2 Topics]` with the specific topics covered in Lesson 2.*
 
 - **Topics Covered:**
-  1. [Topic 1]
-  2. [Topic 2]
-  3. [Topic 3]
-  4. ...
+  1. SAFe for Product Owner/Product Management
+  2. The Lean-Agile mindset
+  3. Value Streams
+  4. Product Owner/Product Management Responsibilities
 
 - **Question Set:**
   - **File:** `lesson_2.json`
