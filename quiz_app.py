@@ -3,6 +3,7 @@ import os
 import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
+import time  # Added import
 
 # Constants for GUI dimensions
 WINDOW_WIDTH = 600  # Reduced width
@@ -81,6 +82,9 @@ class QuizApp:
             self.selected_test_file.set(self.test_files[0])  # Set default selected test
         self.questions = []
         self.after_id = None  # To store the after callback ID
+        self.after_id_timer = None  # Initialize after_id_timer
+        self.start_time = None  # Ensure start_time is initialized
+        self.elapsed_time = "00:00"  # Initialize elapsed time
         self.create_start_screen()
 
     def get_test_files(self):
@@ -88,7 +92,7 @@ class QuizApp:
         test_folder = os.path.join(os.path.dirname(__file__), 'tests')
         try:
             files = os.listdir(test_folder)
-            test_files = [f for f in files if f.endswith('.json')]
+            test_files = sorted([f for f in files if f.endswith('.json')])  # Sort files alphabetically
             if not test_files:
                 messagebox.showerror("Error", "No test files found in the /tests folder.")
             return test_files
@@ -184,14 +188,48 @@ class QuizApp:
         self.load_questions()
         if self.questions:
             self.current_question = 0
+            self.reset_timer()  # Reset the timer for a new test
+            self.start_timer()  # Start the timer
             self.show_question()
 
     def start_practice_test(self):
+        # Timer not needed in practice mode
         self.practice_mode = True
         self.load_questions()
         if self.questions:
             self.current_question = 0
             self.show_question()
+
+    def reset_timer(self):
+        self.elapsed_time = "00:00"
+        if hasattr(self, 'timer_label'):
+            self.timer_label.config(text=f"Time: {self.elapsed_time}")
+        if self.after_id_timer:
+            self.master.after_cancel(self.after_id_timer)
+            self.after_id_timer = None
+
+    def start_timer(self):
+        self.start_time = time.time()
+        self.update_timer()
+
+    def update_timer(self):
+        if self.start_time:
+            elapsed_seconds = int(time.time() - self.start_time)
+            minutes = elapsed_seconds // 60
+            seconds = elapsed_seconds % 60
+            self.elapsed_time = f"{minutes:02d}:{seconds:02d}"
+            if hasattr(self, 'timer_label'):
+                self.timer_label.config(text=f"Time: {self.elapsed_time}")
+            self.after_id_timer = self.master.after(1000, self.update_timer)
+
+    def stop_timer(self):
+        self.start_time = None
+        if self.after_id_timer:
+            self.master.after_cancel(self.after_id_timer)
+            self.after_id_timer = None
+        if hasattr(self, 'timer_label'):
+            self.timer_label.destroy()
+            del self.timer_label
 
     def show_question(self):
         self.clear_screen()
@@ -199,6 +237,18 @@ class QuizApp:
             messagebox.showerror("Error", "Invalid question index.")
             self.main_menu()
             return
+
+        # Create and pack the timer label
+        if not self.practice_mode:
+            if not hasattr(self, 'timer_label'):
+                self.timer_label = tk.Label(
+                    self.master,
+                    text="Time: 00:00",
+                    font=TEXT_FONT,
+                    bg=BG_COLOR,
+                    fg=TEXT_COLOR
+                )
+                self.timer_label.pack(anchor='ne', padx=10, pady=10)
 
         question_data = self.questions[self.current_question]
         question_type = question_data['type']
@@ -453,6 +503,7 @@ class QuizApp:
             self.master.after_cancel(self.after_id)
             self.after_id = None
 
+        self.stop_timer()  # Stop and remove the timer
         incomplete_questions = [i for i, ans in enumerate(self.user_answers) if ans is None]
         self.show_summary(incomplete_questions)
 
@@ -508,6 +559,17 @@ class QuizApp:
             fg=pass_fail_color
         )
         score_label.pack(pady=5)
+
+        # Display time taken only if not in practice mode
+        if not self.practice_mode:
+            time_label = tk.Label(
+                stats_frame,
+                text=f"Time Taken: {self.elapsed_time}",
+                font=('Arial', 14),
+                bg=BG_COLOR,
+                fg=TEXT_COLOR
+            )
+            time_label.pack(pady=5)
 
         # Frame for summary content with two panes
         summary_main_frame = tk.Frame(self.master, bg=BG_COLOR)
@@ -687,8 +749,10 @@ class QuizApp:
         self.create_start_screen()
 
     def clear_screen(self):
+        # Clear all widgets except the timer_label
         for widget in self.master.winfo_children():
-            widget.destroy()
+            if widget != getattr(self, 'timer_label', None):
+                widget.destroy()
 
 def main():
     root = tk.Tk()
