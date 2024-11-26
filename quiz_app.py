@@ -243,15 +243,19 @@ class QuizApp:
         )
         question_label.pack(pady=15, fill='x')  # Ensure label spans the width
 
+        # Label options with letters
+        option_labels = ['a.', 'b.', 'c.', 'd.', 'e.', 'f.', 'g.', 'h.']
+
         # Display answer options
         self.answer_vars = []
         if question_type == 'single':
             selected_value = self.user_answers[self.current_question]['answer'] if self.user_answers[self.current_question] else ""
             self.selected_var = tk.StringVar(value=selected_value)
-            for option in options:
+            for idx, option in enumerate(options):
+                label = option_labels[idx] if idx < len(option_labels) else f"{idx +1}."
                 rb = tk.Radiobutton(
                     top_frame,
-                    text=option,
+                    text=f"{label} {option}",
                     variable=self.selected_var,
                     value=option,
                     font=OPTION_FONT,  # Updated font
@@ -266,11 +270,12 @@ class QuizApp:
                 previous_selections = self.user_answers[self.current_question]
             else:
                 previous_selections = {option: False for option in options}
-            for option in options:
+            for idx, option in enumerate(options):
+                label = option_labels[idx] if idx < len(option_labels) else f"{idx +1}."
                 var = tk.BooleanVar(value=previous_selections.get(option, False))
                 cb = tk.Checkbutton(
                     top_frame,
-                    text=option,
+                    text=f"{label} {option}",
                     variable=var,
                     font=OPTION_FONT,  # Updated font
                     bg=BG_COLOR,
@@ -509,7 +514,7 @@ class QuizApp:
         summary_main_frame.pack(pady=10, fill='both', expand=True)
 
         # Left pane: Scrollable list of questions
-        list_frame = tk.Frame(summary_main_frame, bg=BG_COLOR)
+        list_frame = tk.Frame(summary_main_frame, bg=BG_COLOR, borderwidth=2, relief='groove')  # Darkened borders
         list_frame.pack(side='left', fill='both', expand=True, padx=10, pady=10)
 
         canvas = tk.Canvas(list_frame, bg=BG_COLOR)
@@ -554,7 +559,7 @@ class QuizApp:
             btn.pack(fill='x', pady=2)
 
         # Right pane: Detail view for selected question
-        detail_frame = tk.Frame(summary_main_frame, bg=BG_COLOR)
+        detail_frame = tk.Frame(summary_main_frame, bg=BG_COLOR, borderwidth=2, relief='groove')  # Darkened borders
         detail_frame.pack(side='right', fill='both', expand=True, padx=10, pady=10)
 
         self.detail_label = tk.Label(
