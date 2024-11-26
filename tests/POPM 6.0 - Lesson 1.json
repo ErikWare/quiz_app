@@ -1,0 +1,669 @@
+[
+    {
+        "id": "Q1",
+        "type": "single",
+        "question": "In SAFe 6.0, what is the primary responsibility of a Product Owner?",
+        "options": [
+            "Defining the strategic vision for the product",
+            "Managing the team’s daily activities",
+            "Prioritizing the team backlog to achieve business objectives",
+            "Ensuring the technical quality of the product"
+        ],
+        "answer": ["Prioritizing the team backlog to achieve business objectives"],
+        "rationale": "The primary responsibility of a Product Owner in SAFe is to prioritize the team backlog to ensure alignment with business objectives and maximize value delivery."
+    },
+    {
+        "id": "Q2",
+        "type": "multiple",
+        "question": "Which of the following are key responsibilities of Product Management in SAFe?",
+        "options": [
+            "Defining and prioritizing the program backlog",
+            "Conducting daily stand-up meetings",
+            "Aligning product strategy with customer needs",
+            "Writing user stories for the development team"
+        ],
+        "answer": ["Defining and prioritizing the program backlog", "Aligning product strategy with customer needs"],
+        "rationale": "Product Management is responsible for defining and prioritizing the program backlog and ensuring that the product strategy aligns with customer needs and market demands."
+    },
+    {
+        "id": "Q3",
+        "type": "single",
+        "question": "What is a Value Stream in SAFe?",
+        "options": [
+            "A sequence of steps an organization uses to implement solutions that provide a continuous flow of value to a customer",
+            "A financial stream that funds product development",
+            "A marketing strategy to promote products",
+            "A development methodology similar to Agile"
+        ],
+        "answer": ["A sequence of steps an organization uses to implement solutions that provide a continuous flow of value to a customer"],
+        "rationale": "In SAFe, a Value Stream represents the sequence of steps an organization takes to deliver products or services to customers, ensuring a continuous flow of value."
+    },
+    {
+        "id": "Q4",
+        "type": "single",
+        "question": "Which mindset is essential for a Product Owner/Product Manager in a Lean-Agile environment?",
+        "options": [
+            "Fixed mindset",
+            "Growth mindset",
+            "Competitive mindset",
+            "Traditional mindset"
+        ],
+        "answer": ["Growth mindset"],
+        "rationale": "A Growth mindset is essential in a Lean-Agile environment as it encourages continuous learning, adaptability, and improvement, which are critical for delivering value effectively."
+    },
+    {
+        "id": "Q5",
+        "type": "multiple",
+        "question": "Identify the key elements of the Lean-Agile Mindset in SAFe.",
+        "options": [
+            "Embracing change",
+            "Building quality in",
+            "Delivering quickly",
+            "Maximizing work in progress",
+            "Respect for people"
+        ],
+        "answer": ["Embracing change", "Building quality in", "Delivering quickly", "Respect for people"],
+        "rationale": "The Lean-Agile Mindset in SAFe includes embracing change, building quality into products, delivering quickly, and respecting people. Maximizing work in progress is contrary to Lean principles."
+    },
+    {
+        "id": "Q6",
+        "type": "single",
+        "question": "In SAFe, who is responsible for ensuring that the team backlog is aligned with the program backlog?",
+        "options": [
+            "Scrum Master",
+            "Product Owner",
+            "Product Manager",
+            "System Architect"
+        ],
+        "answer": ["Product Owner"],
+        "rationale": "The Product Owner is responsible for ensuring that the team backlog aligns with the program backlog, maintaining consistency between different levels of planning."
+    },
+    {
+        "id": "Q7",
+        "type": "single",
+        "question": "Which SAFe role collaborates with Product Owners to define and prioritize the team backlog?",
+        "options": [
+            "Release Train Engineer",
+            "Product Manager",
+            "System Architect",
+            "Agile Coach"
+        ],
+        "answer": ["Product Manager"],
+        "rationale": "Product Managers collaborate with Product Owners to define and prioritize the team backlog, ensuring alignment with broader product and business objectives."
+    },
+    {
+        "id": "Q8",
+        "type": "multiple",
+        "question": "What are the benefits of mapping value streams in an organization?",
+        "options": [
+            "Identifying bottlenecks and inefficiencies",
+            "Enhancing team autonomy",
+            "Aligning processes with customer value",
+            "Increasing marketing spend",
+            "Improving product quality"
+        ],
+        "answer": ["Identifying bottlenecks and inefficiencies", "Aligning processes with customer value", "Improving product quality"],
+        "rationale": "Mapping value streams helps organizations identify bottlenecks, align processes with customer value, and improve product quality by streamlining workflows."
+    },
+    {
+        "id": "Q9",
+        "type": "single",
+        "question": "What does the principle of 'Build Quality In' imply in SAFe?",
+        "options": [
+            "Testing only at the end of the development cycle",
+            "Ensuring quality is considered at every step of the development process",
+            "Delegating quality assurance to a separate team",
+            "Focusing solely on functional requirements"
+        ],
+        "answer": ["Ensuring quality is considered at every step of the development process"],
+        "rationale": "'Build Quality In' means that quality is integrated into every phase of the development process, rather than being an afterthought."
+    },
+    {
+        "id": "Q10",
+        "type": "single",
+        "question": "Which of the following best describes the role of a Product Manager in SAFe?",
+        "options": [
+            "Manages the daily activities of the Agile team",
+            "Defines and prioritizes the program backlog",
+            "Ensures the technical architecture aligns with the product vision",
+            "Facilitates Scrum ceremonies"
+        ],
+        "answer": ["Defines and prioritizes the program backlog"],
+        "rationale": "The Product Manager is responsible for defining and prioritizing the program backlog, ensuring that it aligns with the overall product strategy and customer needs."
+    },
+    {
+        "id": "Q11",
+        "type": "multiple",
+        "question": "Which of the following are characteristics of the Lean-Agile Mindset?",
+        "options": [
+            "Customer-centricity",
+            "Emphasis on individual heroics",
+            "Continuous improvement",
+            "Resistance to change",
+            "Respect for people and culture"
+        ],
+        "answer": ["Customer-centricity", "Continuous improvement", "Respect for people and culture"],
+        "rationale": "The Lean-Agile Mindset emphasizes being customer-centric, continuously improving processes and products, and respecting people and culture. It opposes resistance to change and reliance on individual heroics."
+    },
+    {
+        "id": "Q12",
+        "type": "single",
+        "question": "In SAFe, what is the primary goal of Value Stream Mapping?",
+        "options": [
+            "To allocate budget across projects",
+            "To visualize the flow of value from concept to delivery",
+            "To assign tasks to team members",
+            "To define the technical architecture of the system"
+        ],
+        "answer": ["To visualize the flow of value from concept to delivery"],
+        "rationale": "Value Stream Mapping is used to visualize and analyze the flow of value from concept to delivery, helping to identify and eliminate waste and improve efficiency."
+    },
+    {
+        "id": "Q13",
+        "type": "single",
+        "question": "Which principle encourages teams to respond to change over following a plan?",
+        "options": [
+            "Take an economic view",
+            "Apply systems thinking",
+            "Assume variability; preserve options",
+            "Respond to change over following a plan"
+        ],
+        "answer": ["Respond to change over following a plan"],
+        "rationale": "This principle highlights the importance of being adaptable and responsive to changes, rather than rigidly sticking to predefined plans."
+    },
+    {
+        "id": "Q14",
+        "type": "multiple",
+        "question": "Select the key responsibilities of a Product Owner/Product Manager in SAFe.",
+        "options": [
+            "Prioritizing team and program backlogs",
+            "Defining user stories and acceptance criteria",
+            "Managing the Agile Release Train",
+            "Ensuring alignment with customer and business needs",
+            "Overseeing the technical implementation"
+        ],
+        "answer": ["Prioritizing team and program backlogs", "Defining user stories and acceptance criteria", "Ensuring alignment with customer and business needs"],
+        "rationale": "Product Owners/Product Managers prioritize backlogs, define user stories and acceptance criteria, and ensure that the team's work aligns with customer and business needs."
+    },
+    {
+        "id": "Q15",
+        "type": "single",
+        "question": "What is the Lean-Agile principle that focuses on delivering value as quickly as possible?",
+        "options": [
+            "Optimize the whole",
+            "Build incrementally with fast, integrated learning cycles",
+            "Decentralize decision-making",
+            "Apply cadence, synchronize with cross-domain planning"
+        ],
+        "answer": ["Build incrementally with fast, integrated learning cycles"],
+        "rationale": "Building incrementally with fast, integrated learning cycles allows teams to deliver value quickly and adapt based on feedback."
+    },
+    {
+        "id": "Q16",
+        "type": "single",
+        "question": "Who is responsible for the overall product strategy in SAFe?",
+        "options": [
+            "Scrum Master",
+            "Product Owner",
+            "Product Manager",
+            "System Architect"
+        ],
+        "answer": ["Product Manager"],
+        "rationale": "The Product Manager is responsible for defining and managing the overall product strategy, ensuring alignment with business objectives and customer needs."
+    },
+    {
+        "id": "Q17",
+        "type": "multiple",
+        "question": "Which of the following are outcomes of implementing Value Stream Mapping?",
+        "options": [
+            "Reduced lead times",
+            "Increased product complexity",
+            "Improved process efficiency",
+            "Higher customer satisfaction",
+            "Greater resource wastage"
+        ],
+        "answer": ["Reduced lead times", "Improved process efficiency", "Higher customer satisfaction"],
+        "rationale": "Value Stream Mapping helps in reducing lead times, improving process efficiency, and enhancing customer satisfaction by streamlining workflows and eliminating waste."
+    },
+    {
+        "id": "Q18",
+        "type": "single",
+        "question": "In SAFe, what is the role of the Agile Release Train (ART)?",
+        "options": [
+            "To oversee the financial aspects of product development",
+            "To coordinate and align multiple Agile teams towards a common mission",
+            "To handle customer support and feedback",
+            "To manage individual team backlogs"
+        ],
+        "answer": ["To coordinate and align multiple Agile teams towards a common mission"],
+        "rationale": "The Agile Release Train (ART) is a long-lived team of Agile teams that collaborates to deliver value in a synchronized manner towards a common mission."
+    },
+    {
+        "id": "Q19",
+        "type": "single",
+        "question": "Which principle emphasizes the importance of organizing around value?",
+        "options": [
+            "Build incrementally with fast, integrated learning cycles",
+            "Organize around value",
+            "Unlock the intrinsic motivation of knowledge workers",
+            "Apply systems thinking"
+        ],
+        "answer": ["Organize around value"],
+        "rationale": "Organizing around value ensures that teams are structured to deliver maximum value to customers, aligning resources and efforts towards value streams."
+    },
+    {
+        "id": "Q20",
+        "type": "multiple",
+        "question": "Which of the following practices support the Lean-Agile Mindset?",
+        "options": [
+            "Encouraging collaboration and communication",
+            "Emphasizing detailed upfront planning",
+            "Promoting continuous improvement",
+            "Maintaining strict hierarchical structures",
+            "Focusing on delivering customer value"
+        ],
+        "answer": ["Encouraging collaboration and communication", "Promoting continuous improvement", "Focusing on delivering customer value"],
+        "rationale": "The Lean-Agile Mindset is supported by practices that encourage collaboration, continuous improvement, and a focus on delivering customer value, rather than strict hierarchical structures or detailed upfront planning."
+    },
+    {
+        "id": "Q21",
+        "type": "single",
+        "question": "What is the main objective of Product Owner/Product Management Responsibilities in SAFe?",
+        "options": [
+            "To manage the development team's daily tasks",
+            "To align the product with market and customer needs",
+            "To design the system architecture",
+            "To handle project budgeting and finance"
+        ],
+        "answer": ["To align the product with market and customer needs"],
+        "rationale": "The main objective is to ensure that the product aligns with market demands and customer needs, delivering maximum value."
+    },
+    {
+        "id": "Q22",
+        "type": "multiple",
+        "question": "Select the key aspects of the Lean-Agile Mindset.",
+        "options": [
+            "Respect for people and culture",
+            "Focus on maximizing work in progress",
+            "Embracing transparency and inspection",
+            "Encouraging silos and isolated teams",
+            "Prioritizing customer value"
+        ],
+        "answer": ["Respect for people and culture", "Embracing transparency and inspection", "Prioritizing customer value"],
+        "rationale": "The Lean-Agile Mindset includes respecting people and culture, embracing transparency and inspection, and prioritizing customer value, among other aspects."
+    },
+    {
+        "id": "Q23",
+        "type": "single",
+        "question": "How does SAFe define 'Built-In Quality'?",
+        "options": [
+            "Quality is achieved through extensive testing at the end of the development cycle",
+            "Quality is integrated into every step of the development process",
+            "Quality is the responsibility of the QA team alone",
+            "Quality is secondary to speed of delivery"
+        ],
+        "answer": ["Quality is integrated into every step of the development process"],
+        "rationale": "SAFe's 'Built-In Quality' principle ensures that quality is considered and integrated at every stage of the development process, preventing defects and ensuring reliability."
+    },
+    {
+        "id": "Q24",
+        "type": "multiple",
+        "question": "Which of the following are considered Value Streams in SAFe?",
+        "options": [
+            "Operational value streams",
+            "Development value streams",
+            "Financial value streams",
+            "Customer support value streams",
+            "Marketing value streams"
+        ],
+        "answer": ["Operational value streams", "Development value streams"],
+        "rationale": "In SAFe, Value Streams are categorized as Operational Value Streams and Development Value Streams, focusing on delivering operational capabilities and developing solutions, respectively."
+    },
+    {
+        "id": "Q25",
+        "type": "single",
+        "question": "What principle ensures that teams focus on the smallest possible batch of work?",
+        "options": [
+            "Take an economic view",
+            "Apply cadence, synchronize with cross-domain planning",
+            "Limit Work in Progress (WIP)",
+            "Unlock the intrinsic motivation of knowledge workers"
+        ],
+        "answer": ["Limit Work in Progress (WIP)"],
+        "rationale": "Limiting Work in Progress (WIP) ensures that teams focus on completing the smallest possible batch of work, which enhances flow and reduces lead time."
+    },
+    {
+        "id": "Q26",
+        "type": "single",
+        "question": "In SAFe, who is responsible for defining the program backlog?",
+        "options": [
+            "Product Owner",
+            "Product Manager",
+            "Scrum Master",
+            "System Architect"
+        ],
+        "answer": ["Product Manager"],
+        "rationale": "The Product Manager is responsible for defining and prioritizing the program backlog, ensuring alignment with product strategy and business objectives."
+    },
+    {
+        "id": "Q27",
+        "type": "multiple",
+        "question": "Identify the Lean-Agile principles that promote delivering value incrementally.",
+        "options": [
+            "Build incrementally with fast, integrated learning cycles",
+            "Organize around value",
+            "Optimize the whole",
+            "Assume variability; preserve options",
+            "Apply systems thinking"
+        ],
+        "answer": ["Build incrementally with fast, integrated learning cycles", "Assume variability; preserve options"],
+        "rationale": "Building incrementally with fast, integrated learning cycles and assuming variability while preserving options are Lean-Agile principles that support delivering value in small, manageable increments."
+    },
+    {
+        "id": "Q28",
+        "type": "single",
+        "question": "What is the role of a Product Owner in synchronizing with cross-functional teams?",
+        "options": [
+            "Managing team budgets",
+            "Facilitating communication and collaboration",
+            "Designing the system architecture",
+            "Conducting performance reviews"
+        ],
+        "answer": ["Facilitating communication and collaboration"],
+        "rationale": "The Product Owner facilitates communication and collaboration among cross-functional teams to ensure alignment and effective delivery of value."
+    },
+    {
+        "id": "Q29",
+        "type": "single",
+        "question": "Which principle emphasizes the importance of systems thinking in SAFe?",
+        "options": [
+            "Apply systems thinking",
+            "Assume variability; preserve options",
+            "Deliver value continuously",
+            "Organize around value"
+        ],
+        "answer": ["Apply systems thinking"],
+        "rationale": "Applying systems thinking involves understanding and optimizing the entire system rather than focusing on individual parts, which is a key principle in SAFe."
+    },
+    {
+        "id": "Q30",
+        "type": "multiple",
+        "question": "Which of the following practices support 'Respect for People and Culture' in SAFe?",
+        "options": [
+            "Encouraging team autonomy",
+            "Implementing strict hierarchical structures",
+            "Fostering a collaborative environment",
+            "Promoting continuous learning and growth",
+            "Enforcing rigid processes"
+        ],
+        "answer": ["Encouraging team autonomy", "Fostering a collaborative environment", "Promoting continuous learning and growth"],
+        "rationale": "'Respect for People and Culture' is supported by encouraging team autonomy, fostering collaboration, and promoting continuous learning and growth."
+    },
+    {
+        "id": "Q31",
+        "type": "single",
+        "question": "What is the purpose of the Program Increment (PI) in SAFe?",
+        "options": [
+            "To allocate budget for the next fiscal year",
+            "To provide a timebox for planning, executing, and reviewing work",
+            "To conduct performance appraisals",
+            "To finalize product design specifications"
+        ],
+        "answer": ["To provide a timebox for planning, executing, and reviewing work"],
+        "rationale": "A Program Increment (PI) is a timebox in SAFe during which Agile Release Trains plan, execute, and review their work, facilitating alignment and delivery of value."
+    },
+    {
+        "id": "Q32",
+        "type": "single",
+        "question": "Which of the following best describes 'Unlock the intrinsic motivation of knowledge workers'?",
+        "options": [
+            "Providing monetary incentives",
+            "Empowering teams to make decisions and take ownership",
+            "Mandating strict adherence to processes",
+            "Requiring overtime to meet deadlines"
+        ],
+        "answer": ["Empowering teams to make decisions and take ownership"],
+        "rationale": "Unlocking intrinsic motivation involves empowering teams to make decisions, take ownership, and fostering a sense of purpose and autonomy."
+    },
+    {
+        "id": "Q33",
+        "type": "multiple",
+        "question": "Which of the following are key elements of Value Streams in SAFe?",
+        "options": [
+            "End-to-end processes that deliver value to customers",
+            "Separate silos within the organization",
+            "Cross-functional teams working towards common objectives",
+            "Isolated development activities",
+            "Continuous flow of value from concept to customer"
+        ],
+        "answer": ["End-to-end processes that deliver value to customers", "Cross-functional teams working towards common objectives", "Continuous flow of value from concept to customer"],
+        "rationale": "Value Streams in SAFe encompass end-to-end processes, involve cross-functional teams, and ensure a continuous flow of value from concept to customer."
+    },
+    {
+        "id": "Q34",
+        "type": "single",
+        "question": "How does SAFe promote continuous improvement?",
+        "options": [
+            "Through annual performance reviews",
+            "By conducting regular retrospectives and inspect & adapt workshops",
+            "By increasing work in progress",
+            "By avoiding changes to established processes"
+        ],
+        "answer": ["By conducting regular retrospectives and inspect & adapt workshops"],
+        "rationale": "SAFe promotes continuous improvement by encouraging regular retrospectives and inspect & adapt workshops, allowing teams to reflect and enhance their processes."
+    },
+    {
+        "id": "Q35",
+        "type": "single",
+        "question": "What is the focus of Product Owner/Product Management Responsibilities regarding customer needs?",
+        "options": [
+            "Defining technical specifications",
+            "Aligning product features with customer requirements",
+            "Managing the development team",
+            "Handling financial budgeting"
+        ],
+        "answer": ["Aligning product features with customer requirements"],
+        "rationale": "Product Owners/Product Managers focus on aligning product features and functionalities with customer requirements to ensure the delivery of valuable solutions."
+    },
+    {
+        "id": "Q36",
+        "type": "multiple",
+        "question": "Which practices help in 'Organizing around value'?",
+        "options": [
+            "Structuring teams based on functional silos",
+            "Aligning teams with value streams",
+            "Creating cross-functional Agile teams",
+            "Focusing solely on individual tasks",
+            "Ensuring teams have end-to-end responsibility for value delivery"
+        ],
+        "answer": ["Aligning teams with value streams", "Creating cross-functional Agile teams", "Ensuring teams have end-to-end responsibility for value delivery"],
+        "rationale": "Organizing around value involves aligning teams with value streams, creating cross-functional Agile teams, and ensuring teams have end-to-end responsibility for delivering value."
+    },
+    {
+        "id": "Q37",
+        "type": "single",
+        "question": "Which SAFe principle emphasizes the importance of cadence and synchronization?",
+        "options": [
+            "Apply systems thinking",
+            "Organize around value",
+            "Apply cadence, synchronize with cross-domain planning",
+            "Assume variability; preserve options"
+        ],
+        "answer": ["Apply cadence, synchronize with cross-domain planning"],
+        "rationale": "This principle emphasizes establishing a regular cadence for planning and execution, and synchronizing activities across different domains to ensure alignment and coordination."
+    },
+    {
+        "id": "Q38",
+        "type": "single",
+        "question": "What is the role of a Product Owner/Product Manager in handling customer feedback?",
+        "options": [
+            "Ignoring feedback until the end of the project",
+            "Collecting, analyzing, and incorporating feedback into the product backlog",
+            "Delegating feedback to the development team",
+            "Using feedback only for marketing purposes"
+        ],
+        "answer": ["Collecting, analyzing, and incorporating feedback into the product backlog"],
+        "rationale": "Product Owners/Product Managers actively collect, analyze, and incorporate customer feedback to continuously refine and prioritize the product backlog."
+    },
+    {
+        "id": "Q39",
+        "type": "multiple",
+        "question": "Which of the following support the principle of 'Apply systems thinking'?",
+        "options": [
+            "Focusing on individual team performance",
+            "Understanding dependencies and interactions within the system",
+            "Optimizing individual components without considering the whole",
+            "Enhancing collaboration across different functions",
+            "Ignoring external factors affecting the system"
+        ],
+        "answer": ["Understanding dependencies and interactions within the system", "Enhancing collaboration across different functions"],
+        "rationale": "Applying systems thinking involves understanding the dependencies and interactions within the system and enhancing collaboration across functions to optimize the entire system."
+    },
+    {
+        "id": "Q40",
+        "type": "single",
+        "question": "Which SAFe role is responsible for facilitating the PI Planning event?",
+        "options": [
+            "Product Owner",
+            "Release Train Engineer",
+            "Product Manager",
+            "Scrum Master"
+        ],
+        "answer": ["Release Train Engineer"],
+        "rationale": "The Release Train Engineer (RTE) is responsible for facilitating the PI Planning event, ensuring that Agile Release Trains plan and align effectively."
+    },
+    {
+        "id": "Q41",
+        "type": "single",
+        "question": "What is the primary focus of 'Respect for People and Culture' in SAFe?",
+        "options": [
+            "Maximizing individual performance",
+            "Fostering a collaborative and inclusive environment",
+            "Implementing strict hierarchical controls",
+            "Prioritizing speed over quality"
+        ],
+        "answer": ["Fostering a collaborative and inclusive environment"],
+        "rationale": "'Respect for People and Culture' focuses on creating a collaborative, inclusive, and supportive environment that empowers teams and individuals."
+    },
+    {
+        "id": "Q42",
+        "type": "multiple",
+        "question": "Which of the following are outcomes of embracing the Lean-Agile Mindset?",
+        "options": [
+            "Increased adaptability to change",
+            "Decreased customer satisfaction",
+            "Enhanced team collaboration",
+            "Slower delivery times",
+            "Continuous improvement"
+        ],
+        "answer": ["Increased adaptability to change", "Enhanced team collaboration", "Continuous improvement"],
+        "rationale": "Embracing the Lean-Agile Mindset leads to increased adaptability, enhanced collaboration among teams, and a focus on continuous improvement."
+    },
+    {
+        "id": "Q43",
+        "type": "single",
+        "question": "What is the relationship between Product Management and Product Owners in SAFe?",
+        "options": [
+            "Product Management oversees Product Owners",
+            "Product Owners manage Product Managers",
+            "They operate independently without interaction",
+            "Product Management and Product Owners have identical roles"
+        ],
+        "answer": ["Product Management oversees Product Owners"],
+        "rationale": "Product Management sets the strategic direction and oversees Product Owners, who manage the team backlogs and execute on the strategy."
+    },
+    {
+        "id": "Q44",
+        "type": "single",
+        "question": "Which SAFe principle emphasizes minimizing waste and optimizing the whole?",
+        "options": [
+            "Optimize the whole",
+            "Build quality in",
+            "Organize around value",
+            "Take an economic view"
+        ],
+        "answer": ["Optimize the whole"],
+        "rationale": "Optimizing the whole involves minimizing waste and ensuring that all parts of the system work together efficiently to deliver maximum value."
+    },
+    {
+        "id": "Q45",
+        "type": "multiple",
+        "question": "Which practices align with 'Build incrementally with fast, integrated learning cycles'?",
+        "options": [
+            "Releasing large features at the end of the project",
+            "Delivering small, frequent releases",
+            "Conducting regular reviews and retrospectives",
+            "Avoiding feedback loops",
+            "Integrating testing throughout the development process"
+        ],
+        "answer": ["Delivering small, frequent releases", "Conducting regular reviews and retrospectives", "Integrating testing throughout the development process"],
+        "rationale": "Building incrementally with fast, integrated learning cycles involves delivering small, frequent releases, conducting regular reviews, and integrating testing to facilitate continuous learning and improvement."
+    },
+    {
+        "id": "Q46",
+        "type": "single",
+        "question": "What is the significance of 'Respect for People and Culture' in Agile teams?",
+        "options": [
+            "It ensures strict adherence to processes",
+            "It fosters trust and collaboration among team members",
+            "It prioritizes individual achievements over team goals",
+            "It focuses solely on technical excellence"
+        ],
+        "answer": ["It fosters trust and collaboration among team members"],
+        "rationale": "Respect for People and Culture fosters trust, collaboration, and a positive working environment, which are essential for effective Agile teams."
+    },
+    {
+        "id": "Q47",
+        "type": "multiple",
+        "question": "Which elements are essential for effective Value Stream Mapping?",
+        "options": [
+            "Identifying all steps in the value delivery process",
+            "Focusing only on the development team’s activities",
+            "Collaborating with stakeholders across departments",
+            "Ignoring customer feedback",
+            "Analyzing lead times and identifying bottlenecks"
+        ],
+        "answer": ["Identifying all steps in the value delivery process", "Collaborating with stakeholders across departments", "Analyzing lead times and identifying bottlenecks"],
+        "rationale": "Effective Value Stream Mapping requires identifying all steps in the value delivery process, collaborating with stakeholders across departments, and analyzing lead times and bottlenecks to optimize flow."
+    },
+    {
+        "id": "Q48",
+        "type": "single",
+        "question": "How does 'Organize around value' benefit Agile teams?",
+        "options": [
+            "By creating functional silos",
+            "By aligning teams with value streams to maximize efficiency",
+            "By reducing team autonomy",
+            "By focusing only on individual performance metrics"
+        ],
+        "answer": ["By aligning teams with value streams to maximize efficiency"],
+        "rationale": "Organizing around value aligns teams with value streams, ensuring that their efforts are focused on delivering maximum value efficiently."
+    },
+    {
+        "id": "Q49",
+        "type": "single",
+        "question": "Which of the following best describes the 'Lean-Agile Leadership' in SAFe?",
+        "options": [
+            "Leaders who micromanage team activities",
+            "Leaders who support and empower teams to achieve their goals",
+            "Leaders who focus solely on financial metrics",
+            "Leaders who enforce strict hierarchical structures"
+        ],
+        "answer": ["Leaders who support and empower teams to achieve their goals"],
+        "rationale": "Lean-Agile Leadership involves supporting and empowering teams, fostering a culture of trust and collaboration to achieve their objectives."
+    },
+    {
+        "id": "Q50",
+        "type": "multiple",
+        "question": "Which of the following actions demonstrate a Lean-Agile Mindset?",
+        "options": [
+            "Encouraging experimentation and learning from failures",
+            "Prioritizing rigid adherence to initial plans",
+            "Promoting cross-functional collaboration",
+            "Suppressing team autonomy",
+            "Focusing on delivering customer-centric solutions"
+        ],
+        "answer": ["Encouraging experimentation and learning from failures", "Promoting cross-functional collaboration", "Focusing on delivering customer-centric solutions"],
+        "rationale": "A Lean-Agile Mindset is demonstrated by encouraging experimentation, promoting cross-functional collaboration, and focusing on delivering solutions that meet customer needs."
+    }
+]

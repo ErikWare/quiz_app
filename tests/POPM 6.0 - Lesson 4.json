@@ -1,0 +1,675 @@
+[
+    {
+        "id": "Q1",
+        "type": "single",
+        "question": "What is the primary purpose of creating Story Maps in SAFe?",
+        "options": [
+            "To assign tasks to individual team members",
+            "To visualize the user journey and organize stories by functionality",
+            "To document technical specifications",
+            "To create a financial plan for the project"
+        ],
+        "answer": ["To visualize the user journey and organize stories by functionality"],
+        "rationale": "Story Maps are used to visualize the user journey and organize user stories by functionality, providing a clear overview of the product's features and how they deliver value to users."
+    },
+    {
+        "id": "Q2",
+        "type": "multiple",
+        "question": "Which of the following are benefits of using Story Maps?",
+        "options": [
+            "Enhanced team collaboration",
+            "Improved backlog prioritization",
+            "Detailed technical design documentation",
+            "Clear visualization of user workflows",
+            "Increased project budgeting accuracy"
+        ],
+        "answer": ["Enhanced team collaboration", "Improved backlog prioritization", "Clear visualization of user workflows"],
+        "rationale": "Story Maps enhance team collaboration, improve backlog prioritization by focusing on user value, and provide a clear visualization of user workflows, facilitating better understanding and planning."
+    },
+    {
+        "id": "Q3",
+        "type": "single",
+        "question": "During Iteration Planning, what is the main focus of the team?",
+        "options": [
+            "Assigning individual tasks to team members",
+            "Selecting and committing to a set of user stories from the iteration backlog",
+            "Conducting a retrospective of the previous iteration",
+            "Updating the project budget"
+        ],
+        "answer": ["Selecting and committing to a set of user stories from the iteration backlog"],
+        "rationale": "During Iteration Planning, the team focuses on selecting and committing to a set of user stories from the iteration backlog that they can complete within the iteration timeframe."
+    },
+    {
+        "id": "Q4",
+        "type": "multiple",
+        "question": "Which activities are typically part of Iteration Planning?",
+        "options": [
+            "Reviewing the iteration backlog",
+            "Defining iteration goals",
+            "Assigning detailed tasks to team members",
+            "Estimating the effort required for user stories",
+            "Conducting user testing"
+        ],
+        "answer": ["Reviewing the iteration backlog", "Defining iteration goals", "Estimating the effort required for user stories"],
+        "rationale": "Iteration Planning involves reviewing the iteration backlog, defining clear iteration goals, and estimating the effort required for user stories to ensure the team commits to achievable work."
+    },
+    {
+        "id": "Q5",
+        "type": "single",
+        "question": "What is the Team Kanban used for in SAFe?",
+        "options": [
+            "Assigning tasks to individual team members",
+            "Visualizing and managing the flow of work within the team",
+            "Tracking project financials",
+            "Documenting technical specifications"
+        ],
+        "answer": ["Visualizing and managing the flow of work within the team"],
+        "rationale": "The Team Kanban is used to visualize and manage the flow of work items within the team, helping to identify bottlenecks and ensure smooth progress through the workflow stages."
+    },
+    {
+        "id": "Q6",
+        "type": "multiple",
+        "question": "Which of the following are key components of a Team Kanban board?",
+        "options": [
+            "Columns representing workflow states",
+            "Swimlanes for different types of work",
+            "Individual team member performance metrics",
+            "Work in Progress (WIP) limits",
+            "Financial tracking columns"
+        ],
+        "answer": ["Columns representing workflow states", "Swimlanes for different types of work", "Work in Progress (WIP) limits"],
+        "rationale": "A Team Kanban board typically includes columns representing different workflow states, swimlanes for categorizing types of work, and Work in Progress (WIP) limits to control the number of items in each stage."
+    },
+    {
+        "id": "Q7",
+        "type": "single",
+        "question": "What is the primary objective of Backlog Refinement?",
+        "options": [
+            "To assign tasks to team members",
+            "To prioritize and clarify user stories for upcoming iterations",
+            "To conduct performance reviews",
+            "To finalize the project budget"
+        ],
+        "answer": ["To prioritize and clarify user stories for upcoming iterations"],
+        "rationale": "Backlog Refinement aims to prioritize and clarify user stories, ensuring that they are well-defined and ready for selection in upcoming iterations."
+    },
+    {
+        "id": "Q8",
+        "type": "multiple",
+        "question": "Which activities are involved in Backlog Refinement?",
+        "options": [
+            "Breaking down large user stories into smaller ones",
+            "Estimating the effort required for user stories",
+            "Defining acceptance criteria",
+            "Assigning user stories to team members",
+            "Reviewing and adjusting priorities based on feedback"
+        ],
+        "answer": ["Breaking down large user stories into smaller ones", "Estimating the effort required for user stories", "Defining acceptance criteria", "Reviewing and adjusting priorities based on feedback"],
+        "rationale": "Backlog Refinement includes breaking down large user stories into smaller, manageable ones, estimating effort, defining acceptance criteria, and reviewing and adjusting priorities based on stakeholder feedback."
+    },
+    {
+        "id": "Q9",
+        "type": "single",
+        "question": "What is the main purpose of the Iteration Review?",
+        "options": [
+            "To plan the next iteration",
+            "To demonstrate the work completed and gather feedback",
+            "To assign tasks to team members",
+            "To conduct a financial audit"
+        ],
+        "answer": ["To demonstrate the work completed and gather feedback"],
+        "rationale": "The Iteration Review is conducted to demonstrate the work completed during the iteration and gather feedback from stakeholders, ensuring that the team is delivering value aligned with expectations."
+    },
+    {
+        "id": "Q10",
+        "type": "multiple",
+        "question": "Which of the following are key aspects of the Iteration Retrospective?",
+        "options": [
+            "Reflecting on what went well and what didn’t",
+            "Identifying areas for improvement",
+            "Assigning blame for failures",
+            "Creating action items to enhance future iterations",
+            "Reviewing financial performance"
+        ],
+        "answer": ["Reflecting on what went well and what didn’t", "Identifying areas for improvement", "Creating action items to enhance future iterations"],
+        "rationale": "The Iteration Retrospective involves reflecting on the iteration's successes and challenges, identifying areas for improvement, and creating actionable items to enhance performance in future iterations."
+    },
+    {
+        "id": "Q11",
+        "type": "single",
+        "question": "What is the primary focus of DevOps in the context of SAFe?",
+        "options": [
+            "Managing project budgets",
+            "Ensuring seamless integration and continuous delivery of software",
+            "Assigning tasks to team members",
+            "Conducting performance reviews"
+        ],
+        "answer": ["Ensuring seamless integration and continuous delivery of software"],
+        "rationale": "DevOps in SAFe focuses on ensuring seamless integration, continuous delivery, and automation of software development and deployment processes to accelerate value delivery."
+    },
+    {
+        "id": "Q12",
+        "type": "multiple",
+        "question": "Which practices are integral to DevOps in SAFe?",
+        "options": [
+            "Continuous Integration (CI)",
+            "Automated Testing",
+            "Manual deployment processes",
+            "Continuous Deployment (CD)",
+            "Strictly separate development and operations teams"
+        ],
+        "answer": ["Continuous Integration (CI)", "Automated Testing", "Continuous Deployment (CD)"],
+        "rationale": "DevOps in SAFe includes practices such as Continuous Integration (CI), Automated Testing, and Continuous Deployment (CD) to streamline and automate the software delivery pipeline."
+    },
+    {
+        "id": "Q13",
+        "type": "single",
+        "question": "What does 'Release on Demand' enable in SAFe?",
+        "options": [
+            "Fixed release schedules regardless of business needs",
+            "Flexible release timing based on market and customer demand",
+            "Delayed releases until all features are complete",
+            "Releases managed solely by the development team"
+        ],
+        "answer": ["Flexible release timing based on market and customer demand"],
+        "rationale": "'Release on Demand' enables organizations to release software flexibly based on market conditions and customer demand, ensuring timely delivery of value."
+    },
+    {
+        "id": "Q14",
+        "type": "single",
+        "question": "How does the Team Kanban support Iteration Execution?",
+        "options": [
+            "By detailing individual team member tasks",
+            "By providing a visual representation of work progress and managing flow",
+            "By tracking project financials",
+            "By documenting technical specifications"
+        ],
+        "answer": ["By providing a visual representation of work progress and managing flow"],
+        "rationale": "The Team Kanban provides a visual representation of work progress, helping teams manage the flow of tasks and identify bottlenecks during Iteration Execution."
+    },
+    {
+        "id": "Q15",
+        "type": "multiple",
+        "question": "Which elements should be included in effective User Stories?",
+        "options": [
+            "A clear description of the functionality",
+            "Acceptance criteria",
+            "Detailed technical implementation steps",
+            "Value or benefit to the user",
+            "The estimated effort required"
+        ],
+        "answer": ["A clear description of the functionality", "Acceptance criteria", "Value or benefit to the user", "The estimated effort required"],
+        "rationale": "Effective User Stories include a clear description of the functionality, acceptance criteria, the value or benefit to the user, and an estimate of the effort required for implementation."
+    },
+    {
+        "id": "Q16",
+        "type": "single",
+        "question": "What is the main goal of Backlog Refinement sessions?",
+        "options": [
+            "To plan the next iteration's tasks in detail",
+            "To prepare and prioritize the backlog items for future iterations",
+            "To assign tasks to individual team members",
+            "To conduct a retrospective of the previous iteration"
+        ],
+        "answer": ["To prepare and prioritize the backlog items for future iterations"],
+        "rationale": "Backlog Refinement sessions aim to prepare and prioritize backlog items, ensuring that they are well-defined and ready for selection in upcoming iterations."
+    },
+    {
+        "id": "Q17",
+        "type": "multiple",
+        "question": "Which of the following are best practices for conducting an Iteration Retrospective?",
+        "options": [
+            "Encouraging open and honest communication",
+            "Focusing only on negative aspects to identify faults",
+            "Identifying actionable improvements",
+            "Assigning blame for failures",
+            "Celebrating successes and achievements"
+        ],
+        "answer": ["Encouraging open and honest communication", "Identifying actionable improvements", "Celebrating successes and achievements"],
+        "rationale": "Effective Iteration Retrospectives encourage open communication, focus on identifying actionable improvements, and celebrate successes to foster a culture of continuous improvement."
+    },
+    {
+        "id": "Q18",
+        "type": "single",
+        "question": "How does Continuous Integration (CI) benefit Iteration Execution?",
+        "options": [
+            "By reducing the need for testing",
+            "By enabling frequent integration of code changes and early detection of issues",
+            "By eliminating the need for version control",
+            "By allowing teams to work in isolation without coordination"
+        ],
+        "answer": ["By enabling frequent integration of code changes and early detection of issues"],
+        "rationale": "Continuous Integration (CI) allows teams to frequently integrate code changes, which helps in early detection and resolution of issues, ensuring smoother Iteration Execution."
+    },
+    {
+        "id": "Q19",
+        "type": "multiple",
+        "question": "Which of the following are key benefits of using Iteration Planning?",
+        "options": [
+            "Ensuring team alignment on iteration goals",
+            "Assigning specific tasks to team members without discussion",
+            "Identifying and addressing potential impediments",
+            "Allowing teams to work without predefined objectives",
+            "Facilitating commitment to achievable work"
+        ],
+        "answer": ["Ensuring team alignment on iteration goals", "Identifying and addressing potential impediments", "Facilitating commitment to achievable work"],
+        "rationale": "Iteration Planning ensures team alignment on iteration goals, identifies and addresses potential impediments, and facilitates team commitment to work that is achievable within the iteration timeframe."
+    },
+    {
+        "id": "Q20",
+        "type": "single",
+        "question": "What is the role of DevOps in supporting Release on Demand?",
+        "options": [
+            "Managing individual team member tasks",
+            "Automating and streamlining the software delivery pipeline",
+            "Conducting performance reviews",
+            "Assigning user stories to teams"
+        ],
+        "answer": ["Automating and streamlining the software delivery pipeline"],
+        "rationale": "DevOps supports Release on Demand by automating and streamlining the software delivery pipeline, enabling faster and more reliable releases based on business and customer needs."
+    },
+    {
+        "id": "Q21",
+        "type": "multiple",
+        "question": "Which of the following practices enhance the effectiveness of Backlog Refinement?",
+        "options": [
+            "Regularly scheduling refinement sessions",
+            "Ensuring all backlog items are fully detailed",
+            "Collaborating with stakeholders to gather input",
+            "Limiting team participation to only the Scrum Master",
+            "Prioritizing backlog items based on value and dependencies"
+        ],
+        "answer": ["Regularly scheduling refinement sessions", "Collaborating with stakeholders to gather input", "Prioritizing backlog items based on value and dependencies"],
+        "rationale": "Effective Backlog Refinement is enhanced by regularly scheduling refinement sessions, collaborating with stakeholders to gather valuable input, and prioritizing backlog items based on their value and dependencies."
+    },
+    {
+        "id": "Q22",
+        "type": "single",
+        "question": "What should teams focus on during Iteration Review?",
+        "options": [
+            "Assigning new tasks to team members",
+            "Demonstrating completed work and gathering feedback",
+            "Conducting detailed technical design sessions",
+            "Updating the ART Backlog"
+        ],
+        "answer": ["Demonstrating completed work and gathering feedback"],
+        "rationale": "During Iteration Review, teams focus on demonstrating the work they have completed and gathering feedback from stakeholders to ensure that the delivered features meet expectations and provide value."
+    },
+    {
+        "id": "Q23",
+        "type": "multiple",
+        "question": "Which of the following are essential for effective Iteration Planning?",
+        "options": [
+            "Clear understanding of iteration goals",
+            "Accurate estimation of user stories",
+            "Ignoring team capacity and focus areas",
+            "Identifying potential risks and dependencies",
+            "Allowing teams to define their own objectives without alignment"
+        ],
+        "answer": ["Clear understanding of iteration goals", "Accurate estimation of user stories", "Identifying potential risks and dependencies"],
+        "rationale": "Effective Iteration Planning requires a clear understanding of iteration goals, accurate estimation of user stories, and identification of potential risks and dependencies to ensure that the planned work is achievable and aligned with objectives."
+    },
+    {
+        "id": "Q24",
+        "type": "single",
+        "question": "How does the Team Kanban contribute to managing Work in Progress (WIP)?",
+        "options": [
+            "By increasing the number of tasks a team can handle simultaneously",
+            "By setting WIP limits to control the number of ongoing tasks",
+            "By removing the need for task prioritization",
+            "By assigning tasks based on team member availability"
+        ],
+        "answer": ["By setting WIP limits to control the number of ongoing tasks"],
+        "rationale": "The Team Kanban sets Work in Progress (WIP) limits to control the number of ongoing tasks, preventing overcommitment and ensuring that the team can maintain focus and quality in their work."
+    },
+    {
+        "id": "Q25",
+        "type": "single",
+        "question": "What is the main purpose of conducting an Iteration Retrospective?",
+        "options": [
+            "To plan the next iteration's tasks",
+            "To reflect on the past iteration and identify improvement opportunities",
+            "To assign individual performance goals",
+            "To update the project budget"
+        ],
+        "answer": ["To reflect on the past iteration and identify improvement opportunities"],
+        "rationale": "The Iteration Retrospective is conducted to reflect on the past iteration, identify what went well and what didn't, and pinpoint opportunities for improvement to enhance future iterations."
+    },
+    {
+        "id": "Q26",
+        "type": "multiple",
+        "question": "Which of the following are key practices in DevOps?",
+        "options": [
+            "Continuous Integration (CI)",
+            "Automated Testing",
+            "Manual Code Reviews",
+            "Continuous Deployment (CD)",
+            "Frequent Code Merges"
+        ],
+        "answer": ["Continuous Integration (CI)", "Automated Testing", "Continuous Deployment (CD)", "Frequent Code Merges"],
+        "rationale": "Key practices in DevOps include Continuous Integration (CI), Automated Testing, Continuous Deployment (CD), and Frequent Code Merges, all of which contribute to streamlined and efficient software delivery."
+    },
+    {
+        "id": "Q27",
+        "type": "single",
+        "question": "How does Release on Demand benefit organizations in SAFe?",
+        "options": [
+            "By adhering to fixed release schedules",
+            "By enabling the release of features when they are needed",
+            "By delaying releases until all features are complete",
+            "By reducing the frequency of releases to once a year"
+        ],
+        "answer": ["By enabling the release of features when they are needed"],
+        "rationale": "'Release on Demand' allows organizations to release features when they are needed, providing flexibility to respond to market changes and customer demands effectively."
+    },
+    {
+        "id": "Q28",
+        "type": "multiple",
+        "question": "Which of the following are components of effective Story Maps?",
+        "options": [
+            "User activities and tasks",
+            "Hierarchical organization of user stories",
+            "Detailed technical specifications",
+            "Prioritization based on user value",
+            "Assignment of stories to individual team members"
+        ],
+        "answer": ["User activities and tasks", "Hierarchical organization of user stories", "Prioritization based on user value"],
+        "rationale": "Effective Story Maps include user activities and tasks, a hierarchical organization of user stories, and prioritization based on user value, facilitating a clear and organized view of the product's functionality."
+    },
+    {
+        "id": "Q29",
+        "type": "single",
+        "question": "What should be the outcome of the Iteration Review?",
+        "options": [
+            "Detailed technical documentation",
+            "Feedback from stakeholders on the completed work",
+            "Assignment of new tasks to team members",
+            "Finalizing the iteration budget"
+        ],
+        "answer": ["Feedback from stakeholders on the completed work"],
+        "rationale": "The Iteration Review aims to gather feedback from stakeholders on the work completed during the iteration, ensuring that the delivered features meet expectations and provide value."
+    },
+    {
+        "id": "Q30",
+        "type": "multiple",
+        "question": "Which of the following contribute to effective Iteration Execution?",
+        "options": [
+            "Clear and prioritized backlog",
+            "Effective communication within the team",
+            "Strict adherence to initial plans without flexibility",
+            "Continuous monitoring of progress",
+            "Ignoring feedback from Iteration Reviews"
+        ],
+        "answer": ["Clear and prioritized backlog", "Effective communication within the team", "Continuous monitoring of progress"],
+        "rationale": "Effective Iteration Execution is supported by having a clear and prioritized backlog, maintaining effective communication within the team, and continuously monitoring progress to ensure alignment with goals."
+    },
+    {
+        "id": "Q31",
+        "type": "single",
+        "question": "What is the role of Acceptance Criteria in User Stories?",
+        "options": [
+            "To provide detailed technical specifications",
+            "To define the conditions that must be met for the story to be considered complete",
+            "To assign tasks to team members",
+            "To estimate the effort required"
+        ],
+        "answer": ["To define the conditions that must be met for the story to be considered complete"],
+        "rationale": "Acceptance Criteria define the specific conditions that must be met for a User Story to be considered complete, ensuring that the delivered functionality meets the expected requirements."
+    },
+    {
+        "id": "Q32",
+        "type": "multiple",
+        "question": "Which of the following are key elements of Iteration Planning?",
+        "options": [
+            "Reviewing the iteration backlog",
+            "Defining iteration goals",
+            "Assigning individual tasks without team discussion",
+            "Estimating user stories",
+            "Conducting user interviews"
+        ],
+        "answer": ["Reviewing the iteration backlog", "Defining iteration goals", "Estimating user stories"],
+        "rationale": "Key elements of Iteration Planning include reviewing the iteration backlog, defining clear iteration goals, and estimating the effort required for user stories to ensure that the planned work is achievable."
+    },
+    {
+        "id": "Q33",
+        "type": "single",
+        "question": "How does Automated Testing support Iteration Execution in SAFe?",
+        "options": [
+            "By eliminating the need for manual testing",
+            "By ensuring that code changes are continuously verified for quality",
+            "By assigning testing tasks to a separate QA team",
+            "By focusing solely on functional requirements"
+        ],
+        "answer": ["By ensuring that code changes are continuously verified for quality"],
+        "rationale": "Automated Testing ensures that code changes are continuously verified for quality, allowing teams to detect and address issues early, thereby supporting smooth Iteration Execution."
+    },
+    {
+        "id": "Q34",
+        "type": "single",
+        "question": "What is the main goal of the Iteration Retrospective?",
+        "options": [
+            "To plan the next iteration's tasks",
+            "To reflect on the past iteration and identify improvement opportunities",
+            "To assign tasks to team members",
+            "To update the ART Backlog"
+        ],
+        "answer": ["To reflect on the past iteration and identify improvement opportunities"],
+        "rationale": "The Iteration Retrospective is conducted to reflect on the past iteration, identify what went well and what didn’t, and pinpoint opportunities for improvement to enhance future iterations."
+    },
+    {
+        "id": "Q35",
+        "type": "multiple",
+        "question": "Which of the following are benefits of using the Team Kanban board?",
+        "options": [
+            "Enhanced visibility of work in progress",
+            "Improved team collaboration",
+            "Increased Work in Progress (WIP) limits",
+            "Identification of bottlenecks",
+            "Detailed task assignments to individuals"
+        ],
+        "answer": ["Enhanced visibility of work in progress", "Improved team collaboration", "Identification of bottlenecks"],
+        "rationale": "Using the Team Kanban board enhances visibility of work in progress, improves team collaboration, and helps identify bottlenecks in the workflow, enabling teams to address issues proactively."
+    },
+    {
+        "id": "Q36",
+        "type": "single",
+        "question": "What is the purpose of defining Iteration Goals?",
+        "options": [
+            "To assign tasks to team members",
+            "To provide a clear focus and direction for the iteration",
+            "To conduct a financial audit",
+            "To document technical specifications"
+        ],
+        "answer": ["To provide a clear focus and direction for the iteration"],
+        "rationale": "Defining Iteration Goals provides the team with a clear focus and direction for the iteration, ensuring that all efforts are aligned towards achieving specific objectives."
+    },
+    {
+        "id": "Q37",
+        "type": "multiple",
+        "question": "Which of the following are best practices for conducting Backlog Refinement?",
+        "options": [
+            "Regularly scheduled refinement sessions",
+            "Collaborating with stakeholders to gather input",
+            "Prioritizing backlog items based on value and dependencies",
+            "Assigning tasks to individual team members",
+            "Breaking down large stories into smaller, manageable ones"
+        ],
+        "answer": ["Regularly scheduled refinement sessions", "Collaborating with stakeholders to gather input", "Prioritizing backlog items based on value and dependencies", "Breaking down large stories into smaller, manageable ones"],
+        "rationale": "Best practices for Backlog Refinement include regularly scheduled sessions, collaborating with stakeholders, prioritizing based on value and dependencies, and breaking down large stories into smaller, manageable ones."
+    },
+    {
+        "id": "Q38",
+        "type": "single",
+        "question": "How does Continuous Deployment (CD) support Release on Demand?",
+        "options": [
+            "By delaying releases until all features are complete",
+            "By automating the release process to enable frequent and reliable deployments",
+            "By reducing the number of releases to once a year",
+            "By assigning release tasks to a separate team"
+        ],
+        "answer": ["By automating the release process to enable frequent and reliable deployments"],
+        "rationale": "Continuous Deployment (CD) automates the release process, enabling frequent and reliable deployments that support the Release on Demand strategy by allowing teams to release features as needed."
+    },
+    {
+        "id": "Q39",
+        "type": "multiple",
+        "question": "Which of the following contribute to effective Iteration Execution?",
+        "options": [
+            "Clear and prioritized backlog",
+            "Effective communication within the team",
+            "Strictly adhering to initial plans without flexibility",
+            "Continuous monitoring of progress",
+            "Ignoring feedback from Iteration Reviews"
+        ],
+        "answer": ["Clear and prioritized backlog", "Effective communication within the team", "Continuous monitoring of progress"],
+        "rationale": "Effective Iteration Execution is supported by having a clear and prioritized backlog, maintaining effective communication within the team, and continuously monitoring progress to ensure alignment with goals."
+    },
+    {
+        "id": "Q40",
+        "type": "single",
+        "question": "What should teams do if they encounter a blocker during Iteration Execution?",
+        "options": [
+            "Ignore the blocker and continue working",
+            "Immediately inform the Scrum Master or appropriate leader to seek resolution",
+            "Wait until the Iteration Review to address it",
+            "Remove the blocker without informing anyone"
+        ],
+        "answer": ["Immediately inform the Scrum Master or appropriate leader to seek resolution"],
+        "rationale": "If teams encounter a blocker, they should immediately inform the Scrum Master or appropriate leader to seek resolution, ensuring that impediments are addressed promptly to maintain progress."
+    },
+    {
+        "id": "Q41",
+        "type": "single",
+        "question": "How does Automated Testing improve Iteration Execution?",
+        "options": [
+            "By eliminating the need for manual testing entirely",
+            "By ensuring that code changes are continuously tested for quality and functionality",
+            "By assigning testing tasks to a separate team",
+            "By focusing solely on user acceptance testing"
+        ],
+        "answer": ["By ensuring that code changes are continuously tested for quality and functionality"],
+        "rationale": "Automated Testing ensures that code changes are continuously tested for quality and functionality, enabling teams to detect and fix issues early, thereby improving Iteration Execution."
+    },
+    {
+        "id": "Q42",
+        "type": "multiple",
+        "question": "Which of the following are key outcomes of the Iteration Review?",
+        "options": [
+            "Demonstrating completed work to stakeholders",
+            "Gathering feedback to inform future iterations",
+            "Assigning individual performance metrics",
+            "Identifying new user stories for the backlog",
+            "Celebrating team achievements"
+        ],
+        "answer": ["Demonstrating completed work to stakeholders", "Gathering feedback to inform future iterations", "Celebrating team achievements"],
+        "rationale": "Key outcomes of the Iteration Review include demonstrating completed work to stakeholders, gathering feedback to inform future iterations, and celebrating team achievements to boost morale."
+    },
+    {
+        "id": "Q43",
+        "type": "single",
+        "question": "What is the role of the Scrum Master during Iteration Execution?",
+        "options": [
+            "Assigning user stories to team members",
+            "Facilitating team processes and removing impediments",
+            "Defining the project Vision",
+            "Managing the ART Backlog"
+        ],
+        "answer": ["Facilitating team processes and removing impediments"],
+        "rationale": "The Scrum Master facilitates team processes, ensures that Agile practices are followed, and works to remove any impediments that may hinder Iteration Execution."
+    },
+    {
+        "id": "Q44",
+        "type": "multiple",
+        "question": "Which of the following are essential for effective Backlog Refinement?",
+        "options": [
+            "Regularly scheduled refinement sessions",
+            "Collaborating with stakeholders to gather input",
+            "Breaking down large user stories into smaller ones",
+            "Assigning stories to team members during refinement",
+            "Prioritizing stories based on business value and dependencies"
+        ],
+        "answer": ["Regularly scheduled refinement sessions", "Collaborating with stakeholders to gather input", "Breaking down large user stories into smaller ones", "Prioritizing stories based on business value and dependencies"],
+        "rationale": "Effective Backlog Refinement involves regularly scheduled sessions, collaborating with stakeholders, breaking down large user stories, and prioritizing based on business value and dependencies."
+    },
+    {
+        "id": "Q45",
+        "type": "single",
+        "question": "How does DevOps facilitate Release on Demand?",
+        "options": [
+            "By enforcing strict release schedules",
+            "By automating and streamlining the software delivery pipeline",
+            "By reducing the frequency of releases",
+            "By separating development and operations teams"
+        ],
+        "answer": ["By automating and streamlining the software delivery pipeline"],
+        "rationale": "DevOps facilitates Release on Demand by automating and streamlining the software delivery pipeline, enabling teams to deploy features quickly and reliably based on demand."
+    },
+    {
+        "id": "Q46",
+        "type": "multiple",
+        "question": "Which of the following are best practices for conducting an Iteration Retrospective?",
+        "options": [
+            "Encouraging open and honest feedback",
+            "Focusing solely on what went wrong",
+            "Identifying actionable improvement items",
+            "Assigning blame for failures",
+            "Celebrating successes and achievements"
+        ],
+        "answer": ["Encouraging open and honest feedback", "Identifying actionable improvement items", "Celebrating successes and achievements"],
+        "rationale": "Effective Iteration Retrospectives encourage open and honest feedback, identify actionable improvements, and celebrate successes to foster a culture of continuous improvement."
+    },
+    {
+        "id": "Q47",
+        "type": "single",
+        "question": "What is the main purpose of Stories in SAFe?",
+        "options": [
+            "To assign tasks to developers",
+            "To represent user needs and deliverable functionality",
+            "To document technical specifications",
+            "To track project budgets"
+        ],
+        "answer": ["To represent user needs and deliverable functionality"],
+        "rationale": "Stories in SAFe represent user needs and deliverable functionality, ensuring that the team focuses on delivering value to the user through specific, manageable work items."
+    },
+    {
+        "id": "Q48",
+        "type": "multiple",
+        "question": "Which of the following practices support effective Iteration Execution?",
+        "options": [
+            "Maintaining a clear and prioritized backlog",
+            "Regular team stand-up meetings",
+            "Ignoring impediments to maintain momentum",
+            "Continuous integration and automated testing",
+            "Limiting communication to formal channels only"
+        ],
+        "answer": ["Maintaining a clear and prioritized backlog", "Regular team stand-up meetings", "Continuous integration and automated testing"],
+        "rationale": "Effective Iteration Execution is supported by maintaining a clear and prioritized backlog, conducting regular stand-up meetings for communication, and implementing continuous integration and automated testing to ensure quality and progress."
+    },
+    {
+        "id": "Q49",
+        "type": "single",
+        "question": "How does the Team Kanban help in identifying bottlenecks?",
+        "options": [
+            "By limiting the number of team members",
+            "By visualizing the flow of work and highlighting stages with excessive work in progress",
+            "By assigning additional tasks to overloaded team members",
+            "By reducing the number of user stories in the backlog"
+        ],
+        "answer": ["By visualizing the flow of work and highlighting stages with excessive work in progress"],
+        "rationale": "The Team Kanban visualizes the flow of work, making it easier to identify stages with excessive work in progress, thereby highlighting potential bottlenecks that need to be addressed."
+    },
+    {
+        "id": "Q50",
+        "type": "multiple",
+        "question": "Which of the following actions demonstrate a commitment to DevOps in Iteration Execution?",
+        "options": [
+            "Implementing automated testing and deployment pipelines",
+            "Separating development and operations teams completely",
+            "Encouraging continuous feedback and improvement",
+            "Relying solely on manual processes for deployments",
+            "Integrating security practices into the development lifecycle"
+        ],
+        "answer": ["Implementing automated testing and deployment pipelines", "Encouraging continuous feedback and improvement", "Integrating security practices into the development lifecycle"],
+        "rationale": "Commitment to DevOps involves implementing automated testing and deployment pipelines, encouraging continuous feedback and improvement, and integrating security practices into the development lifecycle to ensure efficient and secure software delivery."
+    }
+]

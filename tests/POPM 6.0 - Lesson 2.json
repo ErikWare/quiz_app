@@ -1,0 +1,672 @@
+[
+    {
+        "id": "Q1",
+        "type": "single",
+        "question": "What is the primary purpose of PI Planning in SAFe?",
+        "options": [
+            "To assign individual tasks to team members",
+            "To establish a shared mission and vision for the Agile Release Train (ART)",
+            "To conduct performance reviews for team members",
+            "To finalize the project budget"
+        ],
+        "answer": ["To establish a shared mission and vision for the Agile Release Train (ART)"],
+        "rationale": "PI Planning is a critical event in SAFe where all members of the Agile Release Train (ART) come together to establish a shared mission, vision, and plan for the upcoming Program Increment."
+    },
+    {
+        "id": "Q2",
+        "type": "multiple",
+        "question": "Which of the following are key components of a PI Planning event?",
+        "options": [
+            "Setting the PI objectives",
+            "Reviewing the previous PI's performance",
+            "Assigning individual tasks to team members",
+            "Identifying and addressing dependencies",
+            "Finalizing the project budget"
+        ],
+        "answer": ["Setting the PI objectives", "Reviewing the previous PI's performance", "Identifying and addressing dependencies"],
+        "rationale": "Key components of PI Planning include setting PI objectives, reviewing the performance of the previous PI, and identifying and addressing dependencies to ensure alignment and effective execution."
+    },
+    {
+        "id": "Q3",
+        "type": "single",
+        "question": "Who facilitates the PI Planning event in SAFe?",
+        "options": [
+            "Scrum Master",
+            "Release Train Engineer (RTE)",
+            "Product Owner",
+            "Product Manager"
+        ],
+        "answer": ["Release Train Engineer (RTE)"],
+        "rationale": "The Release Train Engineer (RTE) is responsible for facilitating the PI Planning event, ensuring that the Agile Release Train (ART) remains aligned and that the planning process is smooth and effective."
+    },
+    {
+        "id": "Q4",
+        "type": "multiple",
+        "question": "Which roles are typically involved in PI Planning?",
+        "options": [
+            "Agile Teams",
+            "Product Managers",
+            "System Architects",
+            "HR Managers",
+            "Business Owners"
+        ],
+        "answer": ["Agile Teams", "Product Managers", "System Architects", "Business Owners"],
+        "rationale": "PI Planning involves Agile Teams, Product Managers, System Architects, and Business Owners who collaborate to plan and align the upcoming Program Increment."
+    },
+    {
+        "id": "Q5",
+        "type": "single",
+        "question": "What is a Program Increment (PI) in SAFe?",
+        "options": [
+            "A timebox for planning, executing, and reviewing work",
+            "A financial quarter for budget allocation",
+            "A phase in the traditional Waterfall methodology",
+            "A document outlining project requirements"
+        ],
+        "answer": ["A timebox for planning, executing, and reviewing work"],
+        "rationale": "A Program Increment (PI) is a fixed timebox in SAFe during which an Agile Release Train (ART) plans, executes, and reviews work to deliver incremental value."
+    },
+    {
+        "id": "Q6",
+        "type": "single",
+        "question": "What is the Solution Vision in SAFe?",
+        "options": [
+            "A detailed technical specification of the product",
+            "A high-level description of the desired future state of the solution",
+            "A financial forecast for the project",
+            "A list of team member responsibilities"
+        ],
+        "answer": ["A high-level description of the desired future state of the solution"],
+        "rationale": "The Solution Vision is a high-level description that outlines the desired future state of the solution, providing guidance and inspiration for the teams involved."
+    },
+    {
+        "id": "Q7",
+        "type": "multiple",
+        "question": "Which elements are typically included in a Solution Vision?",
+        "options": [
+            "Business objectives",
+            "Technical architecture details",
+            "Market context",
+            "Detailed user stories",
+            "High-level features and capabilities"
+        ],
+        "answer": ["Business objectives", "Market context", "High-level features and capabilities"],
+        "rationale": "A Solution Vision includes business objectives, market context, and high-level features and capabilities to guide the development process without delving into technical details or specific user stories."
+    },
+    {
+        "id": "Q8",
+        "type": "single",
+        "question": "What is the purpose of Solution Roadmaps in SAFe?",
+        "options": [
+            "To allocate budget across different projects",
+            "To provide a timeline for delivering features and capabilities",
+            "To assign tasks to individual team members",
+            "To document technical specifications"
+        ],
+        "answer": ["To provide a timeline for delivering features and capabilities"],
+        "rationale": "Solution Roadmaps outline the timeline and sequence for delivering features and capabilities, helping teams understand when and how value will be delivered over time."
+    },
+    {
+        "id": "Q9",
+        "type": "multiple",
+        "question": "Which of the following are benefits of using Solution and PI Roadmaps?",
+        "options": [
+            "Enhanced visibility into future work",
+            "Improved team autonomy without alignment",
+            "Facilitated strategic alignment",
+            "Reduced need for cross-team communication",
+            "Better prioritization of features"
+        ],
+        "answer": ["Enhanced visibility into future work", "Facilitated strategic alignment", "Better prioritization of features"],
+        "rationale": "Solution and PI Roadmaps provide enhanced visibility, facilitate strategic alignment across teams, and enable better prioritization of features to ensure that work aligns with business objectives."
+    },
+    {
+        "id": "Q10",
+        "type": "single",
+        "question": "What defines a Customer-centric Feature in SAFe?",
+        "options": [
+            "A feature that focuses solely on technical improvements",
+            "A feature that delivers value directly to the customer",
+            "A feature that is easy to implement",
+            "A feature that reduces project costs"
+        ],
+        "answer": ["A feature that delivers value directly to the customer"],
+        "rationale": "Customer-centric Features are designed to deliver direct value to customers, addressing their needs and enhancing their experience with the product."
+    },
+    {
+        "id": "Q11",
+        "type": "multiple",
+        "question": "Which characteristics define Customer-centric Features?",
+        "options": [
+            "Focus on solving customer problems",
+            "Aligned with business objectives",
+            "Technical complexity",
+            "High customer value",
+            "Low priority for development teams"
+        ],
+        "answer": ["Focus on solving customer problems", "Aligned with business objectives", "High customer value"],
+        "rationale": "Customer-centric Features focus on solving customer problems, are aligned with business objectives, and deliver high value to customers, making them a priority for development teams."
+    },
+    {
+        "id": "Q12",
+        "type": "single",
+        "question": "What is the ART Backlog in SAFe?",
+        "options": [
+            "A list of individual team tasks",
+            "A prioritized list of features and capabilities for the Agile Release Train (ART)",
+            "A collection of project budgets",
+            "A document outlining team member roles"
+        ],
+        "answer": ["A prioritized list of features and capabilities for the Agile Release Train (ART)"],
+        "rationale": "The ART Backlog is a prioritized list of features and capabilities that the Agile Release Train (ART) plans to deliver during Program Increments (PIs)."
+    },
+    {
+        "id": "Q13",
+        "type": "single",
+        "question": "What is the purpose of Kanban in managing the ART Backlog?",
+        "options": [
+            "To assign specific tasks to team members",
+            "To visualize and manage the flow of work items",
+            "To conduct performance evaluations",
+            "To define technical specifications"
+        ],
+        "answer": ["To visualize and manage the flow of work items"],
+        "rationale": "Kanban is used to visualize the flow of work items in the ART Backlog, manage their progression, and ensure smooth delivery by identifying and addressing bottlenecks."
+    },
+    {
+        "id": "Q14",
+        "type": "multiple",
+        "question": "Which of the following are essential for effective PI Planning preparation?",
+        "options": [
+            "Defining the PI objectives",
+            "Identifying dependencies and risks",
+            "Finalizing the project budget",
+            "Creating a Solution Vision",
+            "Assigning individual team member tasks"
+        ],
+        "answer": ["Defining the PI objectives", "Identifying dependencies and risks", "Creating a Solution Vision"],
+        "rationale": "Effective PI Planning preparation involves defining clear PI objectives, identifying dependencies and risks, and creating a Solution Vision to guide the planning process."
+    },
+    {
+        "id": "Q15",
+        "type": "single",
+        "question": "Which of the following best describes the Solution Vision's role in PI Planning?",
+        "options": [
+            "It provides detailed technical specifications for the product",
+            "It outlines the strategic direction and desired outcomes for the solution",
+            "It assigns specific tasks to individual team members",
+            "It serves as a budget allocation document"
+        ],
+        "answer": ["It outlines the strategic direction and desired outcomes for the solution"],
+        "rationale": "The Solution Vision outlines the strategic direction and desired outcomes for the solution, providing a clear focus and alignment for teams during PI Planning."
+    },
+    {
+        "id": "Q16",
+        "type": "multiple",
+        "question": "What elements should be included in a PI Roadmap?",
+        "options": [
+            "Key milestones and deliverables",
+            "Individual team member responsibilities",
+            "Feature timelines and dependencies",
+            "Detailed technical specifications",
+            "Resource allocation for each task"
+        ],
+        "answer": ["Key milestones and deliverables", "Feature timelines and dependencies"],
+        "rationale": "A PI Roadmap should include key milestones, deliverables, feature timelines, and dependencies to provide a clear plan for the Program Increment."
+    },
+    {
+        "id": "Q17",
+        "type": "single",
+        "question": "How do Customer-centric Features impact the prioritization of the ART Backlog?",
+        "options": [
+            "They are given lower priority compared to technical features",
+            "They are prioritized higher to ensure customer value is delivered",
+            "They are excluded from the ART Backlog",
+            "They are only considered after all technical features are completed"
+        ],
+        "answer": ["They are prioritized higher to ensure customer value is delivered"],
+        "rationale": "Customer-centric Features are prioritized higher in the ART Backlog to ensure that the most valuable features for customers are delivered first."
+    },
+    {
+        "id": "Q18",
+        "type": "single",
+        "question": "What is the primary benefit of using Kanban boards for managing the ART Backlog?",
+        "options": [
+            "Improved financial tracking",
+            "Enhanced visibility and flow of work items",
+            "Detailed assignment of tasks to team members",
+            "Reduction in the number of required meetings"
+        ],
+        "answer": ["Enhanced visibility and flow of work items"],
+        "rationale": "Kanban boards provide enhanced visibility into the flow of work items, helping teams manage and optimize the progression of tasks through various stages."
+    },
+    {
+        "id": "Q19",
+        "type": "multiple",
+        "question": "Which activities are part of PI Planning preparation?",
+        "options": [
+            "Setting PI objectives",
+            "Conducting sprint retrospectives",
+            "Identifying feature dependencies",
+            "Developing marketing strategies",
+            "Creating a Solution Vision"
+        ],
+        "answer": ["Setting PI objectives", "Identifying feature dependencies", "Creating a Solution Vision"],
+        "rationale": "PI Planning preparation includes setting clear PI objectives, identifying dependencies between features, and creating a Solution Vision to guide the planning process."
+    },
+    {
+        "id": "Q20",
+        "type": "single",
+        "question": "What is the role of the Product Manager during PI Planning?",
+        "options": [
+            "Facilitating the PI Planning event",
+            "Defining and prioritizing features in the ART Backlog",
+            "Assigning individual tasks to team members",
+            "Conducting performance evaluations"
+        ],
+        "answer": ["Defining and prioritizing features in the ART Backlog"],
+        "rationale": "During PI Planning, the Product Manager defines and prioritizes features in the ART Backlog, ensuring that the most valuable work is planned for the upcoming Program Increment."
+    },
+    {
+        "id": "Q21",
+        "type": "multiple",
+        "question": "Which of the following are outcomes of effective PI Planning?",
+        "options": [
+            "Aligned team objectives with business goals",
+            "Clear identification of dependencies and risks",
+            "Detailed technical specifications for all features",
+            "Commitment to PI objectives by all teams",
+            "Reduction in the number of required team members"
+        ],
+        "answer": ["Aligned team objectives with business goals", "Clear identification of dependencies and risks", "Commitment to PI objectives by all teams"],
+        "rationale": "Effective PI Planning results in aligned team objectives with business goals, clear identification of dependencies and risks, and commitment to PI objectives by all teams involved."
+    },
+    {
+        "id": "Q22",
+        "type": "single",
+        "question": "How does the Solution Vision assist teams during PI Planning?",
+        "options": [
+            "By providing detailed task assignments",
+            "By offering a clear direction and focus for the upcoming PI",
+            "By outlining the project budget",
+            "By defining individual team member roles"
+        ],
+        "answer": ["By offering a clear direction and focus for the upcoming PI"],
+        "rationale": "The Solution Vision provides teams with a clear direction and focus, helping them align their work with the overall goals and objectives of the Program Increment."
+    },
+    {
+        "id": "Q23",
+        "type": "multiple",
+        "question": "Which factors should be considered when creating a Solution Roadmap?",
+        "options": [
+            "Market trends and customer feedback",
+            "Team member personal goals",
+            "Technical dependencies and constraints",
+            "Historical project data",
+            "Competitor strategies"
+        ],
+        "answer": ["Market trends and customer feedback", "Technical dependencies and constraints", "Competitor strategies"],
+        "rationale": "Creating a Solution Roadmap involves considering market trends, customer feedback, technical dependencies, constraints, and competitor strategies to ensure a comprehensive and strategic plan."
+    },
+    {
+        "id": "Q24",
+        "type": "single",
+        "question": "What is the relationship between PI Objectives and the ART Backlog?",
+        "options": [
+            "PI Objectives are derived from the ART Backlog",
+            "PI Objectives replace the ART Backlog",
+            "PI Objectives and the ART Backlog are unrelated",
+            "PI Objectives are subsets of the ART Backlog items"
+        ],
+        "answer": ["PI Objectives are derived from the ART Backlog"],
+        "rationale": "PI Objectives are derived from the ART Backlog, representing the most important outcomes that the Agile Release Train (ART) aims to achieve during the Program Increment."
+    },
+    {
+        "id": "Q25",
+        "type": "single",
+        "question": "Which SAFe principle emphasizes the importance of aligning teams to a shared mission during PI Planning?",
+        "options": [
+                "Apply systems thinking",
+                "Organize around value",
+                "Build incrementally with fast, integrated learning cycles",
+                "Unlock the intrinsic motivation of knowledge workers"
+        ],
+        "answer": ["Organize around value"],
+        "rationale": "Organizing around value emphasizes aligning teams to a shared mission and value streams, ensuring that all teams work towards common objectives during PI Planning."
+    },
+    {
+        "id": "Q26",
+        "type": "multiple",
+        "question": "Which activities are typically part of developing a Solution and PI Roadmap?",
+        "options": [
+            "Identifying key milestones and deliverables",
+            "Assigning specific tasks to individual team members",
+            "Mapping out feature timelines and dependencies",
+            "Conducting one-on-one performance reviews",
+            "Establishing feature prioritization criteria"
+        ],
+        "answer": ["Identifying key milestones and deliverables", "Mapping out feature timelines and dependencies", "Establishing feature prioritization criteria"],
+        "rationale": "Developing a Solution and PI Roadmap involves identifying key milestones, mapping out feature timelines and dependencies, and establishing criteria for feature prioritization to ensure strategic alignment and effective planning."
+    },
+    {
+        "id": "Q27",
+        "type": "single",
+        "question": "What is a key characteristic of a Customer-centric Feature?",
+        "options": [
+            "It focuses solely on internal team efficiencies",
+            "It addresses a specific customer need or problem",
+            "It is easy to implement regardless of value",
+            "It prioritizes technical enhancements over user value"
+        ],
+        "answer": ["It addresses a specific customer need or problem"],
+        "rationale": "A Customer-centric Feature is designed to address specific customer needs or problems, ensuring that the product delivers tangible value to its users."
+    },
+    {
+        "id": "Q28",
+        "type": "single",
+        "question": "How does PI Planning contribute to the alignment of teams within an Agile Release Train (ART)?",
+        "options": [
+            "By allowing teams to work independently without coordination",
+            "By synchronizing team objectives and dependencies",
+            "By assigning all decisions to the Release Train Engineer (RTE)",
+            "By limiting communication between teams"
+        ],
+        "answer": ["By synchronizing team objectives and dependencies"],
+        "rationale": "PI Planning facilitates the alignment of teams within an ART by synchronizing their objectives and addressing dependencies, ensuring that all teams work cohesively towards common goals."
+    },
+    {
+        "id": "Q29",
+        "type": "multiple",
+        "question": "Which elements should be included in a PI Objective?",
+        "options": [
+            "Specific goals aligned with business objectives",
+            "Detailed technical implementation steps",
+            "Measurable outcomes",
+            "Individual team member tasks",
+            "Dependencies and risks"
+        ],
+        "answer": ["Specific goals aligned with business objectives", "Measurable outcomes", "Dependencies and risks"],
+        "rationale": "PI Objectives should include specific goals aligned with business objectives, measurable outcomes to track progress, and identification of dependencies and risks to manage potential challenges."
+    },
+    {
+        "id": "Q30",
+        "type": "single",
+        "question": "What is the role of Business Owners during PI Planning?",
+        "options": [
+            "Facilitating daily stand-up meetings",
+            "Providing business context and aligning teams with strategic objectives",
+            "Writing user stories for the development team",
+            "Managing the technical architecture of the solution"
+        ],
+        "answer": ["Providing business context and aligning teams with strategic objectives"],
+        "rationale": "Business Owners play a critical role during PI Planning by providing business context, ensuring that teams align with strategic objectives, and helping to prioritize work that delivers maximum value."
+    },
+    {
+        "id": "Q31",
+        "type": "single",
+        "question": "How does a Solution Roadmap differ from a PI Roadmap in SAFe?",
+        "options": [
+            "A Solution Roadmap is focused on long-term strategic planning, while a PI Roadmap is short-term",
+            "A Solution Roadmap is created after the PI Roadmap",
+            "They are identical and used interchangeably",
+            "A Solution Roadmap focuses on individual team tasks, while a PI Roadmap focuses on overall features"
+        ],
+        "answer": ["A Solution Roadmap is focused on long-term strategic planning, while a PI Roadmap is short-term"],
+        "rationale": "A Solution Roadmap provides a long-term strategic plan for the solution, outlining major milestones and features, while a PI Roadmap focuses on the short-term planning and execution of Program Increments."
+    },
+    {
+        "id": "Q32",
+        "type": "multiple",
+        "question": "Which practices enhance the effectiveness of Customer-centric Features?",
+        "options": [
+            "Engaging with customers to gather feedback",
+            "Prioritizing features based on technical feasibility alone",
+            "Aligning features with customer needs and business goals",
+            "Minimizing user involvement in feature development",
+            "Conducting user testing and validation"
+        ],
+        "answer": ["Engaging with customers to gather feedback", "Aligning features with customer needs and business goals", "Conducting user testing and validation"],
+        "rationale": "Enhancing Customer-centric Features involves engaging with customers to gather feedback, aligning features with their needs and business goals, and conducting user testing and validation to ensure the features deliver real value."
+    },
+    {
+        "id": "Q33",
+        "type": "single",
+        "question": "What is the Agile Release Train (ART) Backlog?",
+        "options": [
+            "A list of daily stand-up tasks",
+            "A prioritized list of features and capabilities for the ART",
+            "A document outlining team member responsibilities",
+            "A financial report for the ART"
+        ],
+        "answer": ["A prioritized list of features and capabilities for the ART"],
+        "rationale": "The ART Backlog is a prioritized list of features and capabilities that the Agile Release Train (ART) plans to deliver during Program Increments (PIs), ensuring alignment with business objectives."
+    },
+    {
+        "id": "Q34",
+        "type": "multiple",
+        "question": "Which of the following are key benefits of using Kanban for the ART Backlog?",
+        "options": [
+            "Visualizing the flow of work",
+            "Improving task assignment efficiency",
+            "Identifying and eliminating bottlenecks",
+            "Automating the development process",
+            "Enhancing collaboration through transparency"
+        ],
+        "answer": ["Visualizing the flow of work", "Identifying and eliminating bottlenecks", "Enhancing collaboration through transparency"],
+        "rationale": "Using Kanban for the ART Backlog helps visualize the flow of work, identify and eliminate bottlenecks, and enhance collaboration through increased transparency among team members."
+    },
+    {
+        "id": "Q35",
+        "type": "single",
+        "question": "During PI Planning, how are dependencies between teams typically managed?",
+        "options": [
+            "Ignored to maintain team autonomy",
+            "Documented and addressed through planning and coordination",
+            "Assigned to a separate dependency management team",
+            "Resolved after the PI Planning event"
+        ],
+        "answer": ["Documented and addressed through planning and coordination"],
+        "rationale": "Dependencies between teams are documented and addressed during PI Planning through careful planning and coordination to ensure smooth execution and alignment across the Agile Release Train (ART)."
+    },
+    {
+        "id": "Q36",
+        "type": "multiple",
+        "question": "Which of the following are essential for creating effective Customer-centric Features?",
+        "options": [
+            "Understanding customer needs and pain points",
+            "Involving customers in the feature development process",
+            "Focusing solely on technical advancements",
+            "Aligning features with business value",
+            "Minimizing feature changes based on feedback"
+        ],
+        "answer": ["Understanding customer needs and pain points", "Involving customers in the feature development process", "Aligning features with business value"],
+        "rationale": "Effective Customer-centric Features are created by understanding customer needs, involving them in the development process, and aligning features with business value to ensure that the delivered features provide real benefits to customers."
+    },
+    {
+        "id": "Q37",
+        "type": "single",
+        "question": "What is the primary focus of the Agile Release Train (ART) Backlog?",
+        "options": [
+            "Managing individual team member tasks",
+            "Prioritizing features and capabilities to deliver value",
+            "Handling administrative tasks for the ART",
+            "Defining the technical architecture of the solution"
+        ],
+        "answer": ["Prioritizing features and capabilities to deliver value"],
+        "rationale": "The primary focus of the ART Backlog is to prioritize features and capabilities that deliver maximum value, ensuring that the Agile Release Train (ART) works on the most important and impactful items first."
+    },
+    {
+        "id": "Q38",
+        "type": "single",
+        "question": "How does PI Planning support the Lean-Agile Mindset?",
+        "options": [
+            "By enforcing strict adherence to initial plans",
+            "By promoting collaboration, transparency, and continuous improvement",
+            "By minimizing team interactions",
+            "By focusing solely on individual performance metrics"
+        ],
+        "answer": ["By promoting collaboration, transparency, and continuous improvement"],
+        "rationale": "PI Planning embodies the Lean-Agile Mindset by fostering collaboration among teams, ensuring transparency in planning and execution, and encouraging continuous improvement through regular feedback and adaptation."
+    },
+    {
+        "id": "Q39",
+        "type": "multiple",
+        "question": "Which of the following are key activities during PI Planning?",
+        "options": [
+            "Defining and prioritizing features",
+            "Identifying and addressing risks",
+            "Assigning individual tasks to team members",
+            "Establishing team and PI objectives",
+            "Conducting financial audits"
+        ],
+        "answer": ["Defining and prioritizing features", "Identifying and addressing risks", "Establishing team and PI objectives"],
+        "rationale": "Key activities during PI Planning include defining and prioritizing features, identifying and addressing risks, and establishing clear team and PI objectives to guide the upcoming Program Increment."
+    },
+    {
+        "id": "Q40",
+        "type": "single",
+        "question": "What is the relationship between the Solution Vision and the PI Objectives?",
+        "options": [
+            "The Solution Vision is derived from the PI Objectives",
+            "The PI Objectives support the Solution Vision",
+            "They are unrelated and developed independently",
+            "The PI Objectives replace the Solution Vision"
+        ],
+        "answer": ["The PI Objectives support the Solution Vision"],
+        "rationale": "PI Objectives are formulated to support and advance the Solution Vision, ensuring that each Program Increment contributes towards achieving the overarching vision for the solution."
+    },
+    {
+        "id": "Q41",
+        "type": "single",
+        "question": "Which tool is commonly used to visualize the flow of work in the ART Backlog?",
+        "options": [
+            "Gantt Chart",
+            "Kanban Board",
+            "Burn-down Chart",
+            "PERT Diagram"
+        ],
+        "answer": ["Kanban Board"],
+        "rationale": "A Kanban Board is commonly used to visualize and manage the flow of work items in the ART Backlog, enhancing transparency and facilitating the identification of bottlenecks."
+    },
+    {
+        "id": "Q42",
+        "type": "multiple",
+        "question": "Which of the following practices ensure that Customer-centric Features deliver real value?",
+        "options": [
+            "Conducting user research and interviews",
+            "Ignoring feedback from customers",
+            "Prioritizing features based on customer needs",
+            "Implementing features without validation",
+            "Regularly reviewing and updating features based on feedback"
+        ],
+        "answer": ["Conducting user research and interviews", "Prioritizing features based on customer needs", "Regularly reviewing and updating features based on feedback"],
+        "rationale": "To ensure Customer-centric Features deliver real value, it is essential to conduct user research, prioritize features based on customer needs, and regularly review and update features based on ongoing feedback."
+    },
+    {
+        "id": "Q43",
+        "type": "single",
+        "question": "What is the role of System Architects in PI Planning?",
+        "options": [
+            "Facilitating daily stand-up meetings",
+            "Defining the technical architecture and ensuring alignment with the Solution Vision",
+            "Assigning tasks to developers",
+            "Managing the ART Backlog"
+        ],
+        "answer": ["Defining the technical architecture and ensuring alignment with the Solution Vision"],
+        "rationale": "System Architects are responsible for defining the technical architecture, ensuring that it aligns with the Solution Vision and supports the delivery of Customer-centric Features."
+    },
+    {
+        "id": "Q44",
+        "type": "single",
+        "question": "How does PI Planning facilitate cross-team collaboration within an ART?",
+        "options": [
+            "By limiting communication between teams",
+            "By having all teams plan together and identify dependencies",
+            "By assigning teams to work in isolation",
+            "By focusing only on individual team objectives"
+        ],
+        "answer": ["By having all teams plan together and identify dependencies"],
+        "rationale": "PI Planning brings all teams together to collaboratively plan, identify dependencies, and align their objectives, fostering cross-team collaboration and ensuring cohesive execution."
+    },
+    {
+        "id": "Q45",
+        "type": "multiple",
+        "question": "Which of the following are best practices for developing a Solution Vision?",
+        "options": [
+            "Involving stakeholders from various departments",
+            "Focusing solely on short-term goals",
+            "Aligning the vision with business and customer needs",
+            "Ignoring market trends",
+            "Communicating the vision clearly to all teams"
+        ],
+        "answer": ["Involving stakeholders from various departments", "Aligning the vision with business and customer needs", "Communicating the vision clearly to all teams"],
+        "rationale": "Best practices for developing a Solution Vision include involving diverse stakeholders, aligning the vision with business and customer needs, and clearly communicating the vision to all teams to ensure alignment and shared understanding."
+    },
+    {
+        "id": "Q46",
+        "type": "single",
+        "question": "What is the main objective of managing the ART Backlog using Kanban?",
+        "options": [
+            "To assign specific tasks to individual team members",
+            "To visualize work progress and manage flow",
+            "To eliminate the need for prioritization",
+            "To conduct performance reviews"
+        ],
+        "answer": ["To visualize work progress and manage flow"],
+        "rationale": "Using Kanban to manage the ART Backlog allows teams to visualize work progress, manage the flow of work items, and identify and address bottlenecks to enhance efficiency."
+    },
+    {
+        "id": "Q47",
+        "type": "single",
+        "question": "How does PI Planning support the delivery of Customer-centric Features?",
+        "options": [
+            "By allowing teams to focus only on technical tasks",
+            "By aligning feature development with customer needs and business objectives",
+            "By prioritizing features based on ease of implementation",
+            "By reducing the number of features to be developed"
+        ],
+        "answer": ["By aligning feature development with customer needs and business objectives"],
+        "rationale": "PI Planning ensures that the development of Customer-centric Features is aligned with customer needs and business objectives, facilitating the delivery of high-value features."
+    },
+    {
+        "id": "Q48",
+        "type": "multiple",
+        "question": "Which of the following contribute to a successful PI Planning event?",
+        "options": [
+            "Clear communication of the Solution Vision",
+            "Detailed technical specifications for all features",
+            "Active participation from all ART members",
+            "Ignoring team dependencies",
+            "Effective facilitation by the Release Train Engineer (RTE)"
+        ],
+        "answer": ["Clear communication of the Solution Vision", "Active participation from all ART members", "Effective facilitation by the Release Train Engineer (RTE)"],
+        "rationale": "A successful PI Planning event is characterized by clear communication of the Solution Vision, active participation from all ART members, and effective facilitation by the RTE to guide the planning process."
+    },
+    {
+        "id": "Q49",
+        "type": "single",
+        "question": "What is the relationship between Solution Roadmaps and PI Roadmaps?",
+        "options": [
+            "Solution Roadmaps are short-term, while PI Roadmaps are long-term",
+            "Solution Roadmaps provide a high-level strategic plan, while PI Roadmaps detail the work for each Program Increment",
+            "They serve the same purpose and are used interchangeably",
+            "PI Roadmaps are created after Solution Roadmaps are completed"
+        ],
+        "answer": ["Solution Roadmaps provide a high-level strategic plan, while PI Roadmaps detail the work for each Program Increment"],
+        "rationale": "Solution Roadmaps outline the high-level strategic plan for the solution, while PI Roadmaps provide detailed plans for each Program Increment, ensuring alignment between long-term goals and short-term execution."
+    },
+    {
+        "id": "Q50",
+        "type": "multiple",
+        "question": "Which actions demonstrate a commitment to Customer-centric Features during PI Planning?",
+        "options": [
+            "Prioritizing features based on customer feedback and business value",
+            "Including features that address specific customer pain points",
+            "Limiting customer involvement to the initial planning stage",
+            "Regularly reviewing and adjusting features based on ongoing feedback",
+            "Focusing solely on technical enhancements without considering user needs"
+        ],
+        "answer": ["Prioritizing features based on customer feedback and business value", "Including features that address specific customer pain points", "Regularly reviewing and adjusting features based on ongoing feedback"],
+        "rationale": "A commitment to Customer-centric Features involves prioritizing based on customer feedback and business value, addressing specific customer pain points, and continuously reviewing and adjusting features to meet evolving customer needs."
+    }
+]

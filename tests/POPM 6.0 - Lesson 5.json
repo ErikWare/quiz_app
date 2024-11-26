@@ -1,0 +1,675 @@
+[
+    {
+        "id": "Q1",
+        "type": "single",
+        "question": "What is the primary purpose of the PO Sync meeting in SAFe?",
+        "options": [
+            "To assign individual tasks to team members",
+            "To synchronize and align Product Owners with the Product Manager and ensure backlog alignment",
+            "To conduct performance reviews for team members",
+            "To finalize the project budget"
+        ],
+        "answer": ["To synchronize and align Product Owners with the Product Manager and ensure backlog alignment"],
+        "rationale": "The PO Sync meeting is designed to synchronize and align Product Owners with the Product Manager, ensuring that the backlogs are aligned with the program vision and objectives."
+    },
+    {
+        "id": "Q2",
+        "type": "multiple",
+        "question": "Which of the following are key activities during the PO Sync meeting?",
+        "options": [
+            "Reviewing progress towards PI Objectives",
+            "Updating the ART Backlog",
+            "Assigning tasks to team members",
+            "Identifying and managing dependencies",
+            "Conducting technical design sessions"
+        ],
+        "answer": ["Reviewing progress towards PI Objectives", "Updating the ART Backlog", "Identifying and managing dependencies"],
+        "rationale": "During the PO Sync meeting, Product Owners and the Product Manager review progress towards PI Objectives, update the ART Backlog, and identify and manage dependencies to ensure alignment and address any issues."
+    },
+    {
+        "id": "Q3",
+        "type": "single",
+        "question": "Who typically facilitates the PO Sync meeting?",
+        "options": [
+            "Scrum Master",
+            "Release Train Engineer (RTE)",
+            "Product Manager",
+            "System Architect"
+        ],
+        "answer": ["Product Manager"],
+        "rationale": "The Product Manager typically facilitates the PO Sync meeting, ensuring that Product Owners are aligned with the overall program vision and objectives."
+    },
+    {
+        "id": "Q4",
+        "type": "multiple",
+        "question": "Which of the following best describe the System Demo in SAFe?",
+        "options": [
+            "A daily stand-up meeting",
+            "A demonstration of the integrated work of all teams on the Agile Release Train (ART)",
+            "A financial review session",
+            "A showcase of completed features to stakeholders",
+            "An individual team retrospective"
+        ],
+        "answer": ["A demonstration of the integrated work of all teams on the Agile Release Train (ART)", "A showcase of completed features to stakeholders"],
+        "rationale": "The System Demo is a comprehensive demonstration of the integrated work of all teams on the ART, showcasing completed features to stakeholders and providing an opportunity for feedback."
+    },
+    {
+        "id": "Q5",
+        "type": "single",
+        "question": "What is the main objective of the Innovation and Planning (IP) Iteration in SAFe?",
+        "options": [
+            "To assign tasks to team members",
+            "To provide time for innovation, exploration, and planning activities",
+            "To conduct daily stand-up meetings",
+            "To finalize the project budget"
+        ],
+        "answer": ["To provide time for innovation, exploration, and planning activities"],
+        "rationale": "The IP Iteration provides teams with dedicated time for innovation, exploration, learning, and planning activities, as well as for handling unplanned work and technical debt."
+    },
+    {
+        "id": "Q6",
+        "type": "multiple",
+        "question": "Which of the following activities are typically performed during the IP Iteration?",
+        "options": [
+            "Refactoring and addressing technical debt",
+            "Developing new user stories",
+            "Conducting team training and skill development",
+            "Planning the next PI",
+            "Finalizing feature implementations"
+        ],
+        "answer": ["Refactoring and addressing technical debt", "Conducting team training and skill development", "Planning the next PI"],
+        "rationale": "During the IP Iteration, teams focus on refactoring, addressing technical debt, conducting training, and planning for the next Program Increment (PI), among other improvement activities."
+    },
+    {
+        "id": "Q7",
+        "type": "single",
+        "question": "What is the primary focus of Inspect and Adapt (I&A) in SAFe?",
+        "options": [
+            "Assigning tasks to team members",
+            "Reviewing and improving the current PI and processes",
+            "Conducting daily stand-up meetings",
+            "Finalizing the project budget"
+        ],
+        "answer": ["Reviewing and improving the current PI and processes"],
+        "rationale": "Inspect and Adapt (I&A) is a structured event at the end of each PI where teams review the PI outcomes, reflect on processes, identify improvements, and create action plans to enhance future performance."
+    },
+    {
+        "id": "Q8",
+        "type": "multiple",
+        "question": "Which of the following are components of the Inspect and Adapt (I&A) event?",
+        "options": [
+            "PI System Demo",
+            "Quantitative and qualitative measurement of PI performance",
+            "Problem-Solving Workshop",
+            "Assigning individual tasks for the next PI",
+            "Budget review and adjustment"
+        ],
+        "answer": ["PI System Demo", "Quantitative and qualitative measurement of PI performance", "Problem-Solving Workshop"],
+        "rationale": "The Inspect and Adapt event includes a PI System Demo, quantitative and qualitative measurement of PI performance, and a Problem-Solving Workshop to identify and address improvement areas."
+    },
+    {
+        "id": "Q9",
+        "type": "single",
+        "question": "How often should the System Demo occur in SAFe?",
+        "options": [
+            "Once at the end of the PI",
+            "Once a month",
+            "At the end of each iteration",
+            "Whenever a feature is completed"
+        ],
+        "answer": ["At the end of each iteration"],
+        "rationale": "The System Demo should occur at the end of each iteration to showcase the integrated work of all teams and gather feedback regularly."
+    },
+    {
+        "id": "Q10",
+        "type": "single",
+        "question": "What role does the Release Train Engineer (RTE) play during PI Execution?",
+        "options": [
+            "Assigning individual tasks to team members",
+            "Facilitating ART events and ensuring smooth PI Execution",
+            "Defining the product Vision",
+            "Managing the project budget"
+        ],
+        "answer": ["Facilitating ART events and ensuring smooth PI Execution"],
+        "rationale": "The Release Train Engineer (RTE) facilitates ART events, coordinates activities, and ensures that PI Execution proceeds smoothly by addressing impediments and fostering collaboration."
+    },
+    {
+        "id": "Q11",
+        "type": "multiple",
+        "question": "Which of the following are benefits of conducting regular System Demos?",
+        "options": [
+            "Early detection of integration issues",
+            "Continuous feedback from stakeholders",
+            "Improved team morale through recognition of achievements",
+            "Detailed financial tracking",
+            "Reduced need for documentation"
+        ],
+        "answer": ["Early detection of integration issues", "Continuous feedback from stakeholders", "Improved team morale through recognition of achievements"],
+        "rationale": "Regular System Demos help in early detection of integration issues, provide continuous feedback from stakeholders, and improve team morale by recognizing and showcasing their work."
+    },
+    {
+        "id": "Q12",
+        "type": "single",
+        "question": "What is the main purpose of the Problem-Solving Workshop during Inspect and Adapt?",
+        "options": [
+            "To assign tasks for the next PI",
+            "To collaboratively identify root causes of problems and develop improvement plans",
+            "To conduct individual performance reviews",
+            "To finalize the project budget"
+        ],
+        "answer": ["To collaboratively identify root causes of problems and develop improvement plans"],
+        "rationale": "The Problem-Solving Workshop is designed to collaboratively identify the root causes of issues encountered during the PI and develop actionable improvement plans to enhance future performance."
+    },
+    {
+        "id": "Q13",
+        "type": "multiple",
+        "question": "Which practices support effective PI Objectives?",
+        "options": [
+            "Aligning objectives with the program Vision",
+            "Making objectives vague to allow flexibility",
+            "Ensuring objectives are measurable and achievable",
+            "Focusing solely on technical deliverables",
+            "Prioritizing customer value and business outcomes"
+        ],
+        "answer": ["Aligning objectives with the program Vision", "Ensuring objectives are measurable and achievable", "Prioritizing customer value and business outcomes"],
+        "rationale": "Effective PI Objectives are aligned with the program Vision, are measurable and achievable, and prioritize customer value and business outcomes to ensure that the work contributes meaningfully to the program goals."
+    },
+    {
+        "id": "Q14",
+        "type": "single",
+        "question": "What is the primary goal of the Innovation and Planning (IP) Iteration?",
+        "options": [
+            "To assign tasks to team members",
+            "To allow teams time for innovation, learning, and planning",
+            "To conduct daily stand-up meetings",
+            "To finalize technical specifications"
+        ],
+        "answer": ["To allow teams time for innovation, learning, and planning"],
+        "rationale": "The IP Iteration provides teams with dedicated time for innovation, learning, exploration, and planning activities, fostering continuous improvement and readiness for future PIs."
+    },
+    {
+        "id": "Q15",
+        "type": "single",
+        "question": "How does the Team Kanban support Iteration Execution?",
+        "options": [
+            "By detailing individual team member tasks",
+            "By providing a visual representation of work progress and managing flow",
+            "By tracking financial expenditures",
+            "By documenting technical specifications"
+        ],
+        "answer": ["By providing a visual representation of work progress and managing flow"],
+        "rationale": "The Team Kanban provides a visual representation of work progress, helping teams manage the flow of tasks, identify bottlenecks, and ensure smooth Iteration Execution."
+    },
+    {
+        "id": "Q16",
+        "type": "multiple",
+        "question": "Which of the following are essential components of a System Demo?",
+        "options": [
+            "Demonstrating integrated work from all teams",
+            "Gathering feedback from stakeholders",
+            "Assigning individual tasks to team members",
+            "Reviewing financial metrics",
+            "Showcasing completed features and functionalities"
+        ],
+        "answer": ["Demonstrating integrated work from all teams", "Gathering feedback from stakeholders", "Showcasing completed features and functionalities"],
+        "rationale": "A System Demo involves demonstrating integrated work from all teams, gathering feedback from stakeholders, and showcasing completed features and functionalities to ensure alignment and value delivery."
+    },
+    {
+        "id": "Q17",
+        "type": "single",
+        "question": "What is the main purpose of Backlog Refinement during PI Execution?",
+        "options": [
+            "To assign tasks to team members",
+            "To prepare and prioritize backlog items for upcoming iterations",
+            "To conduct team performance reviews",
+            "To finalize the project budget"
+        ],
+        "answer": ["To prepare and prioritize backlog items for upcoming iterations"],
+        "rationale": "Backlog Refinement during PI Execution is aimed at preparing and prioritizing backlog items, ensuring that they are well-defined and ready for selection in upcoming iterations."
+    },
+    {
+        "id": "Q18",
+        "type": "multiple",
+        "question": "Which of the following are key benefits of conducting an Iteration Review?",
+        "options": [
+            "Gathering feedback from stakeholders",
+            "Demonstrating completed work to the business",
+            "Identifying areas for technical improvement",
+            "Assigning individual performance metrics",
+            "Celebrating team achievements"
+        ],
+        "answer": ["Gathering feedback from stakeholders", "Demonstrating completed work to the business", "Celebrating team achievements"],
+        "rationale": "Iteration Reviews allow teams to gather feedback from stakeholders, demonstrate the work they have completed, and celebrate their achievements, fostering a culture of transparency and continuous improvement."
+    },
+    {
+        "id": "Q19",
+        "type": "single",
+        "question": "How does Inspect and Adapt (I&A) contribute to continuous improvement in SAFe?",
+        "options": [
+            "By assigning blame for failures",
+            "By identifying and implementing process and product improvements",
+            "By finalizing technical specifications",
+            "By managing the project budget"
+        ],
+        "answer": ["By identifying and implementing process and product improvements"],
+        "rationale": "Inspect and Adapt (I&A) facilitates continuous improvement by identifying areas for process and product enhancements and implementing actionable plans to address them."
+    },
+    {
+        "id": "Q20",
+        "type": "multiple",
+        "question": "Which of the following are best practices for conducting a Problem-Solving Workshop during I&A?",
+        "options": [
+            "Identifying root causes of problems",
+            "Developing actionable improvement plans",
+            "Assigning blame to specific team members",
+            "Encouraging open and honest discussion",
+            "Ignoring minor issues to focus on major ones"
+        ],
+        "answer": ["Identifying root causes of problems", "Developing actionable improvement plans", "Encouraging open and honest discussion"],
+        "rationale": "Effective Problem-Solving Workshops involve identifying root causes of problems, developing actionable improvement plans, and encouraging open and honest discussion to foster a collaborative environment for continuous improvement."
+    },
+    {
+        "id": "Q21",
+        "type": "single",
+        "question": "What should teams do if they encounter significant technical debt during the Innovation and Planning (IP) Iteration?",
+        "options": [
+            "Ignore it and focus on new features",
+            "Address it as part of their improvement activities",
+            "Assign it to a separate technical team",
+            "Postpone dealing with it until the next PI"
+        ],
+        "answer": ["Address it as part of their improvement activities"],
+        "rationale": "Teams should address significant technical debt during the IP Iteration as part of their continuous improvement activities to maintain code quality and reduce future maintenance efforts."
+    },
+    {
+        "id": "Q22",
+        "type": "multiple",
+        "question": "Which of the following practices support effective PO Sync meetings?",
+        "options": [
+            "Regularly scheduled syncs",
+            "Clear communication of priorities",
+            "Sharing updates on PI Objectives progress",
+            "Assigning individual team member tasks",
+            "Discussing and resolving dependencies"
+        ],
+        "answer": ["Regularly scheduled syncs", "Clear communication of priorities", "Sharing updates on PI Objectives progress", "Discussing and resolving dependencies"],
+        "rationale": "Effective PO Sync meetings are supported by regularly scheduled syncs, clear communication of priorities, sharing updates on PI Objectives progress, and discussing and resolving dependencies to ensure alignment and coordination."
+    },
+    {
+        "id": "Q23",
+        "type": "single",
+        "question": "What is the main objective of the System Demo during PI Execution?",
+        "options": [
+            "To assign tasks to team members",
+            "To demonstrate the integrated work of all teams and gather feedback",
+            "To conduct a financial review",
+            "To finalize technical documentation"
+        ],
+        "answer": ["To demonstrate the integrated work of all teams and gather feedback"],
+        "rationale": "The main objective of the System Demo is to demonstrate the integrated work of all teams on the ART, showcase completed features, and gather feedback from stakeholders to ensure alignment and value delivery."
+    },
+    {
+        "id": "Q24",
+        "type": "multiple",
+        "question": "Which of the following are key components of the Inspect and Adapt (I&A) event?",
+        "options": [
+            "PI System Demo",
+            "Quantitative and qualitative assessment of PI performance",
+            "Problem-Solving Workshop",
+            "Daily stand-up meetings",
+            "Finalizing the PI backlog"
+        ],
+        "answer": ["PI System Demo", "Quantitative and qualitative assessment of PI performance", "Problem-Solving Workshop"],
+        "rationale": "The Inspect and Adapt (I&A) event includes the PI System Demo, quantitative and qualitative assessment of PI performance, and a Problem-Solving Workshop to identify and address improvement areas."
+    },
+    {
+        "id": "Q25",
+        "type": "single",
+        "question": "How does the Team Kanban board assist in managing Work in Progress (WIP)?",
+        "options": [
+            "By increasing the number of tasks a team can handle simultaneously",
+            "By setting WIP limits to control the number of ongoing tasks",
+            "By eliminating the need for task prioritization",
+            "By assigning tasks based on team member availability"
+        ],
+        "answer": ["By setting WIP limits to control the number of ongoing tasks"],
+        "rationale": "The Team Kanban board assists in managing Work in Progress (WIP) by setting limits on the number of ongoing tasks, preventing overcommitment, and ensuring a smooth flow of work."
+    },
+    {
+        "id": "Q26",
+        "type": "multiple",
+        "question": "Which of the following are benefits of conducting regular PO Sync meetings?",
+        "options": [
+            "Ensuring alignment of team backlogs with program objectives",
+            "Facilitating communication between Product Owners and Product Managers",
+            "Assigning individual tasks to team members",
+            "Identifying and managing dependencies",
+            "Conducting detailed technical design sessions"
+        ],
+        "answer": ["Ensuring alignment of team backlogs with program objectives", "Facilitating communication between Product Owners and Product Managers", "Identifying and managing dependencies"],
+        "rationale": "Regular PO Sync meetings ensure that team backlogs are aligned with program objectives, facilitate communication between Product Owners and Product Managers, and help in identifying and managing dependencies."
+    },
+    {
+        "id": "Q27",
+        "type": "single",
+        "question": "What should be the focus of the Problem-Solving Workshop during I&A?",
+        "options": [
+            "Assigning blame for failures",
+            "Identifying root causes of issues and developing improvement plans",
+            "Defining new user stories",
+            "Updating the project budget"
+        ],
+        "answer": ["Identifying root causes of issues and developing improvement plans"],
+        "rationale": "The Problem-Solving Workshop focuses on identifying the root causes of issues encountered during the PI and developing actionable improvement plans to address them."
+    },
+    {
+        "id": "Q28",
+        "type": "single",
+        "question": "How does the Innovation and Planning (IP) Iteration support continuous improvement?",
+        "options": [
+            "By focusing solely on delivering new features",
+            "By providing dedicated time for teams to innovate, learn, and plan",
+            "By assigning additional tasks to team members",
+            "By eliminating the need for retrospectives"
+        ],
+        "answer": ["By providing dedicated time for teams to innovate, learn, and plan"],
+        "rationale": "The IP Iteration supports continuous improvement by providing teams with dedicated time to innovate, learn, explore new ideas, and plan for future Program Increments."
+    },
+    {
+        "id": "Q29",
+        "type": "multiple",
+        "question": "Which of the following practices enhance the effectiveness of System Demos?",
+        "options": [
+            "Demonstrating integrated work from all teams",
+            "Gathering actionable feedback from stakeholders",
+            "Focusing only on completed features without context",
+            "Ensuring technical perfection before the demo",
+            "Encouraging open discussion and questions during the demo"
+        ],
+        "answer": ["Demonstrating integrated work from all teams", "Gathering actionable feedback from stakeholders", "Encouraging open discussion and questions during the demo"],
+        "rationale": "Effective System Demos involve demonstrating integrated work from all teams, gathering actionable feedback from stakeholders, and encouraging open discussions and questions to ensure alignment and continuous improvement."
+    },
+    {
+        "id": "Q30",
+        "type": "single",
+        "question": "What is the key outcome of the Inspect and Adapt (I&A) event?",
+        "options": [
+            "Assigning individual tasks for the next PI",
+            "Finalizing the project budget",
+            "Developing and committing to improvement actions",
+            "Creating detailed technical specifications"
+        ],
+        "answer": ["Developing and committing to improvement actions"],
+        "rationale": "The key outcome of the Inspect and Adapt (I&A) event is to develop and commit to improvement actions based on the insights gained from reviewing PI performance and addressing identified issues."
+    },
+    {
+        "id": "Q31",
+        "type": "single",
+        "question": "How does Continuous Integration (CI) support Iteration Execution?",
+        "options": [
+            "By reducing the need for code reviews",
+            "By enabling frequent integration of code changes and early detection of issues",
+            "By allowing teams to work without version control",
+            "By eliminating the need for automated testing"
+        ],
+        "answer": ["By enabling frequent integration of code changes and early detection of issues"],
+        "rationale": "Continuous Integration (CI) supports Iteration Execution by enabling teams to frequently integrate code changes, which helps in early detection and resolution of issues, ensuring higher quality and smoother progress."
+    },
+    {
+        "id": "Q32",
+        "type": "multiple",
+        "question": "Which of the following are essential for conducting an effective Iteration Retrospective?",
+        "options": [
+            "Creating a safe environment for open feedback",
+            "Focusing only on what went wrong",
+            "Identifying actionable improvement items",
+            "Assigning blame for failures",
+            "Celebrating team successes"
+        ],
+        "answer": ["Creating a safe environment for open feedback", "Identifying actionable improvement items", "Celebrating team successes"],
+        "rationale": "An effective Iteration Retrospective creates a safe environment for open feedback, identifies actionable improvement items, and celebrates team successes to foster continuous improvement and team morale."
+    },
+    {
+        "id": "Q33",
+        "type": "single",
+        "question": "What is the role of the Product Owner during the System Demo?",
+        "options": [
+            "Assigning individual tasks to team members",
+            "Demonstrating the completed features and gathering feedback",
+            "Managing the ART Backlog",
+            "Conducting performance reviews"
+        ],
+        "answer": ["Demonstrating the completed features and gathering feedback"],
+        "rationale": "During the System Demo, the Product Owner demonstrates the completed features, showcases the value delivered, and gathers feedback from stakeholders to inform future development."
+    },
+    {
+        "id": "Q34",
+        "type": "multiple",
+        "question": "Which of the following practices support effective Backlog Refinement?",
+        "options": [
+            "Regularly scheduled refinement sessions",
+            "Collaborating with stakeholders to gather input",
+            "Prioritizing backlog items based on value and dependencies",
+            "Breaking down large user stories into smaller ones",
+            "Assigning tasks to individual team members during refinement"
+        ],
+        "answer": ["Regularly scheduled refinement sessions", "Collaborating with stakeholders to gather input", "Prioritizing backlog items based on value and dependencies", "Breaking down large user stories into smaller ones"],
+        "rationale": "Effective Backlog Refinement involves regularly scheduled sessions, collaborating with stakeholders, prioritizing based on value and dependencies, and breaking down large user stories into smaller, manageable ones."
+    },
+    {
+        "id": "Q35",
+        "type": "single",
+        "question": "How does DevOps facilitate Release on Demand in SAFe?",
+        "options": [
+            "By automating and streamlining the software delivery pipeline",
+            "By reducing the frequency of releases",
+            "By separating development and operations teams",
+            "By focusing solely on manual deployment processes"
+        ],
+        "answer": ["By automating and streamlining the software delivery pipeline"],
+        "rationale": "DevOps facilitates Release on Demand by automating and streamlining the software delivery pipeline, enabling frequent and reliable releases based on business and customer needs."
+    },
+    {
+        "id": "Q36",
+        "type": "multiple",
+        "question": "Which of the following are benefits of the Innovation and Planning (IP) Iteration?",
+        "options": [
+            "Providing time for innovation and experimentation",
+            "Allowing teams to address technical debt",
+            "Facilitating team training and skill development",
+            "Assigning new tasks to team members without planning",
+            "Planning the next PI"
+        ],
+        "answer": ["Providing time for innovation and experimentation", "Allowing teams to address technical debt", "Facilitating team training and skill development", "Planning the next PI"],
+        "rationale": "The IP Iteration provides teams with time for innovation and experimentation, addressing technical debt, facilitating training and skill development, and planning for the next Program Increment."
+    },
+    {
+        "id": "Q37",
+        "type": "single",
+        "question": "What should be the outcome of a successful Inspect and Adapt (I&A) event?",
+        "options": [
+            "A list of assigned tasks for the next PI",
+            "A detailed technical specification document",
+            "Actionable improvement plans to enhance future PIs",
+            "Finalized project budget"
+        ],
+        "answer": ["Actionable improvement plans to enhance future PIs"],
+        "rationale": "A successful Inspect and Adapt (I&A) event results in actionable improvement plans that address identified issues and enhance performance in future Program Increments."
+    },
+    {
+        "id": "Q38",
+        "type": "multiple",
+        "question": "Which of the following practices enhance the effectiveness of PO Sync meetings?",
+        "options": [
+            "Regularly reviewing progress towards PI Objectives",
+            "Updating the ART Backlog based on new insights",
+            "Assigning individual tasks to team members",
+            "Identifying and resolving dependencies between teams",
+            "Conducting technical deep-dive sessions"
+        ],
+        "answer": ["Regularly reviewing progress towards PI Objectives", "Updating the ART Backlog based on new insights", "Identifying and resolving dependencies between teams"],
+        "rationale": "Effective PO Sync meetings involve regularly reviewing progress towards PI Objectives, updating the ART Backlog based on new insights, and identifying and resolving dependencies between teams to maintain alignment and coordination."
+    },
+    {
+        "id": "Q39",
+        "type": "single",
+        "question": "How does the Iteration Review contribute to the overall PI Execution?",
+        "options": [
+            "By planning the next PI",
+            "By demonstrating completed work and collecting stakeholder feedback",
+            "By assigning individual tasks to team members",
+            "By finalizing technical designs"
+        ],
+        "answer": ["By demonstrating completed work and collecting stakeholder feedback"],
+        "rationale": "The Iteration Review contributes to PI Execution by demonstrating the completed work to stakeholders and collecting their feedback, which informs future development and ensures that the team is delivering value."
+    },
+    {
+        "id": "Q40",
+        "type": "multiple",
+        "question": "Which of the following are key elements of a successful System Demo?",
+        "options": [
+            "Showcasing integrated work from all teams",
+            "Gathering actionable feedback from stakeholders",
+            "Assigning new tasks during the demo",
+            "Demonstrating end-to-end features and functionalities",
+            "Conducting detailed technical reviews"
+        ],
+        "answer": ["Showcasing integrated work from all teams", "Gathering actionable feedback from stakeholders", "Demonstrating end-to-end features and functionalities"],
+        "rationale": "A successful System Demo showcases integrated work from all teams, demonstrates end-to-end features and functionalities, and gathers actionable feedback from stakeholders to ensure alignment and value delivery."
+    },
+    {
+        "id": "Q41",
+        "type": "single",
+        "question": "What should teams focus on during the Iteration Retrospective?",
+        "options": [
+            "Assigning blame for failures",
+            "Reflecting on the iteration's successes and challenges to identify improvement opportunities",
+            "Planning the next iteration's tasks",
+            "Updating the project budget"
+        ],
+        "answer": ["Reflecting on the iteration's successes and challenges to identify improvement opportunities"],
+        "rationale": "During the Iteration Retrospective, teams focus on reflecting on the iteration's successes and challenges to identify opportunities for improvement, fostering a culture of continuous learning and enhancement."
+    },
+    {
+        "id": "Q42",
+        "type": "multiple",
+        "question": "Which of the following are best practices for conducting a successful System Demo?",
+        "options": [
+            "Ensuring all integrated work is ready for demonstration",
+            "Encouraging active participation and feedback from stakeholders",
+            "Focusing solely on technical achievements without user context",
+            "Demonstrating end-to-end functionality and user scenarios",
+            "Ignoring stakeholder feedback to maintain focus"
+        ],
+        "answer": ["Ensuring all integrated work is ready for demonstration", "Encouraging active participation and feedback from stakeholders", "Demonstrating end-to-end functionality and user scenarios"],
+        "rationale": "Successful System Demos ensure that all integrated work is ready for demonstration, encourage active participation and feedback from stakeholders, and demonstrate end-to-end functionality and user scenarios to provide meaningful insights and value."
+    },
+    {
+        "id": "Q43",
+        "type": "single",
+        "question": "How does the Innovation and Planning (IP) Iteration support DevOps practices?",
+        "options": [
+            "By reducing the need for automation",
+            "By providing time for teams to implement and refine DevOps practices",
+            "By separating development and operations teams",
+            "By focusing solely on manual deployment processes"
+        ],
+        "answer": ["By providing time for teams to implement and refine DevOps practices"],
+        "rationale": "The IP Iteration provides teams with dedicated time to implement, refine, and enhance DevOps practices, ensuring that the software delivery pipeline is efficient and effective."
+    },
+    {
+        "id": "Q44",
+        "type": "multiple",
+        "question": "Which of the following are key benefits of the Inspect and Adapt (I&A) event?",
+        "options": [
+            "Identifying process and product improvement opportunities",
+            "Enhancing team alignment with the program Vision",
+            "Assigning individual performance goals",
+            "Developing actionable improvement plans",
+            "Finalizing the project budget"
+        ],
+        "answer": ["Identifying process and product improvement opportunities", "Enhancing team alignment with the program Vision", "Developing actionable improvement plans"],
+        "rationale": "The Inspect and Adapt (I&A) event helps in identifying opportunities for process and product improvements, enhancing team alignment with the program Vision, and developing actionable improvement plans to drive continuous enhancement."
+    },
+    {
+        "id": "Q45",
+        "type": "single",
+        "question": "What is the primary focus of the Problem-Solving Workshop during I&A?",
+        "options": [
+            "Assigning blame for failures",
+            "Identifying root causes of problems and developing improvement actions",
+            "Planning the next PI",
+            "Conducting technical design sessions"
+        ],
+        "answer": ["Identifying root causes of problems and developing improvement actions"],
+        "rationale": "The Problem-Solving Workshop focuses on identifying the root causes of problems encountered during the PI and developing actionable improvement actions to address them."
+    },
+    {
+        "id": "Q46",
+        "type": "multiple",
+        "question": "Which of the following practices support effective Iteration Execution?",
+        "options": [
+            "Maintaining a clear and prioritized backlog",
+            "Conducting regular stand-up meetings",
+            "Implementing continuous integration and automated testing",
+            "Assigning tasks without team discussion",
+            "Ignoring feedback from stakeholders"
+        ],
+        "answer": ["Maintaining a clear and prioritized backlog", "Conducting regular stand-up meetings", "Implementing continuous integration and automated testing"],
+        "rationale": "Effective Iteration Execution is supported by maintaining a clear and prioritized backlog, conducting regular stand-up meetings for communication, and implementing continuous integration and automated testing to ensure quality and progress."
+    },
+    {
+        "id": "Q47",
+        "type": "single",
+        "question": "How does the Team Kanban board aid in Iteration Execution?",
+        "options": [
+            "By assigning tasks to team members",
+            "By providing a visual overview of work progress and identifying bottlenecks",
+            "By documenting detailed technical specifications",
+            "By tracking project budgets"
+        ],
+        "answer": ["By providing a visual overview of work progress and identifying bottlenecks"],
+        "rationale": "The Team Kanban board aids in Iteration Execution by providing a visual overview of work progress, helping teams identify and address bottlenecks, and ensuring a smooth flow of work."
+    },
+    {
+        "id": "Q48",
+        "type": "multiple",
+        "question": "Which of the following are essential for a successful Iteration Review?",
+        "options": [
+            "Demonstrating completed work to stakeholders",
+            "Gathering actionable feedback from stakeholders",
+            "Focusing only on what went wrong",
+            "Celebrating team accomplishments",
+            "Assigning new tasks to team members"
+        ],
+        "answer": ["Demonstrating completed work to stakeholders", "Gathering actionable feedback from stakeholders", "Celebrating team accomplishments"],
+        "rationale": "A successful Iteration Review involves demonstrating completed work to stakeholders, gathering actionable feedback, and celebrating team accomplishments to boost morale and encourage continuous improvement."
+    },
+    {
+        "id": "Q49",
+        "type": "single",
+        "question": "What should be the focus of the Iteration Retrospective?",
+        "options": [
+            "Assigning individual tasks for the next iteration",
+            "Reflecting on the iteration's successes and challenges to identify improvement opportunities",
+            "Conducting detailed technical design sessions",
+            "Finalizing the iteration budget"
+        ],
+        "answer": ["Reflecting on the iteration's successes and challenges to identify improvement opportunities"],
+        "rationale": "The Iteration Retrospective focuses on reflecting on the iteration's successes and challenges, identifying areas for improvement, and creating actionable plans to enhance future iterations."
+    },
+    {
+        "id": "Q50",
+        "type": "multiple",
+        "question": "Which of the following actions demonstrate a commitment to DevOps during PI Execution?",
+        "options": [
+            "Implementing automated deployment pipelines",
+            "Encouraging continuous feedback and improvement",
+            "Separating development and operations teams",
+            "Integrating security practices into the development lifecycle",
+            "Relying solely on manual testing and deployment processes"
+        ],
+        "answer": ["Implementing automated deployment pipelines", "Encouraging continuous feedback and improvement", "Integrating security practices into the development lifecycle"],
+        "rationale": "Commitment to DevOps during PI Execution involves implementing automated deployment pipelines, encouraging continuous feedback and improvement, and integrating security practices into the development lifecycle to ensure efficient and secure software delivery."
+    }
+]

@@ -1,0 +1,18 @@
+[
+    {
+        "id": "Q1",
+        "type": "single",
+        "question": "What is the capital of France?",
+        "options": ["Paris", "London", "Berlin", "Rome"],
+        "answer": ["Paris"],
+        "rationale": "Paris is the capital and most populous city of France."
+    },
+    {
+        "id": "Q2",
+        "type": "multiple",
+        "question": "Which of the following are programming languages?",
+        "options": ["Python", "Java", "HTML", "CSS"],
+        "answer": ["Python", "Java"],
+        "rationale": "Python and Java are programming languages, whereas HTML and CSS are markup and style sheet languages, respectively."
+    }
+]
