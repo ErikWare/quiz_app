@@ -4,6 +4,7 @@ import tkinter as tk
 from tkinter import messagebox
 from tkinter import ttk
 import time  # Added import
+import random  # New import
 
 # Constants for GUI dimensions
 WINDOW_WIDTH = 600  # Reduced width
@@ -175,6 +176,7 @@ class QuizApp:
         try:
             with open(test_file_path, 'r') as file:
                 self.questions = json.load(file)
+            random.shuffle(self.questions)  # Shuffle the order of questions
             self.user_answers = [None for _ in self.questions]  # Initialize user answers
             self.submitted_questions = set()
         except Exception as e:
@@ -254,6 +256,7 @@ class QuizApp:
         question_type = question_data['type']
         question_text = question_data['question']
         options = question_data['options']
+        random.shuffle(options)  # Shuffle the order of options
 
         # Top Frame for question and options
         top_frame = tk.Frame(self.master, **FRAME_STYLE)  # Removed padx=20, pady=20
